@@ -1,0 +1,1153 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		834D4A3B2815987A0099464B /* DersuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4A3A2815987A0099464B /* DersuApp.swift */; };
+		834D4A3D2815987A0099464B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4A3C2815987A0099464B /* ContentView.swift */; };
+		834D4A3F2815987E0099464B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834D4A3E2815987E0099464B /* Assets.xcassets */; };
+		834D4A422815987E0099464B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834D4A412815987E0099464B /* Preview Assets.xcassets */; };
+		834D4A4C2815987E0099464B /* DersuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4A4B2815987E0099464B /* DersuTests.swift */; };
+		834D4A562815987E0099464B /* DersuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4A552815987E0099464B /* DersuUITests.swift */; };
+		834D4A582815987E0099464B /* DersuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4A572815987E0099464B /* DersuUITestsLaunchTests.swift */; };
+		834D4A5C2815987E0099464B /* Dersu WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 834D4A5B2815987E0099464B /* Dersu WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		834D4A61281598800099464B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834D4A60281598800099464B /* Assets.xcassets */; };
+		834D4A67281598800099464B /* Dersu WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 834D4A66281598800099464B /* Dersu WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		834D4A6C281598800099464B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4A6B281598800099464B /* ContentView.swift */; };
+		834D4A6E281598800099464B /* DersuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4A6D281598800099464B /* DersuApp.swift */; };
+		834D4A70281598800099464B /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4A6F281598800099464B /* ComplicationController.swift */; };
+		834D4A72281598820099464B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834D4A71281598820099464B /* Assets.xcassets */; };
+		834D4A75281598820099464B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834D4A74281598820099464B /* Preview Assets.xcassets */; };
+		834D4A80281598820099464B /* Dersu_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4A7F281598820099464B /* Dersu_WatchKit_AppTests.swift */; };
+		834D4A8A281598820099464B /* Dersu_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4A89281598820099464B /* Dersu_WatchKit_AppUITests.swift */; };
+		834D4A8C281598820099464B /* Dersu_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4A8B281598820099464B /* Dersu_WatchKit_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		834D4A482815987E0099464B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 834D4A2F281598790099464B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834D4A362815987A0099464B;
+			remoteInfo = Dersu;
+		};
+		834D4A522815987E0099464B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 834D4A2F281598790099464B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834D4A362815987A0099464B;
+			remoteInfo = Dersu;
+		};
+		834D4A5D2815987E0099464B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 834D4A2F281598790099464B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834D4A5A2815987E0099464B;
+			remoteInfo = "Dersu WatchKit App";
+		};
+		834D4A68281598800099464B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 834D4A2F281598790099464B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834D4A65281598800099464B;
+			remoteInfo = "Dersu WatchKit Extension";
+		};
+		834D4A7C281598820099464B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 834D4A2F281598790099464B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834D4A65281598800099464B;
+			remoteInfo = "Dersu WatchKit Extension";
+		};
+		834D4A86281598820099464B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 834D4A2F281598790099464B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834D4A5A2815987E0099464B;
+			remoteInfo = "Dersu WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		834D4A92281598820099464B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				834D4A67281598800099464B /* Dersu WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D4A96281598820099464B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				834D4A5C2815987E0099464B /* Dersu WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		834D4A372815987A0099464B /* Dersu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dersu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		834D4A3A2815987A0099464B /* DersuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DersuApp.swift; sourceTree = "<group>"; };
+		834D4A3C2815987A0099464B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		834D4A3E2815987E0099464B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		834D4A412815987E0099464B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		834D4A472815987E0099464B /* DersuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DersuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		834D4A4B2815987E0099464B /* DersuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DersuTests.swift; sourceTree = "<group>"; };
+		834D4A512815987E0099464B /* DersuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DersuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		834D4A552815987E0099464B /* DersuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DersuUITests.swift; sourceTree = "<group>"; };
+		834D4A572815987E0099464B /* DersuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DersuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		834D4A5B2815987E0099464B /* Dersu WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dersu WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		834D4A60281598800099464B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		834D4A66281598800099464B /* Dersu WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dersu WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		834D4A6B281598800099464B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		834D4A6D281598800099464B /* DersuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DersuApp.swift; sourceTree = "<group>"; };
+		834D4A6F281598800099464B /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		834D4A71281598820099464B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		834D4A74281598820099464B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		834D4A76281598820099464B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		834D4A7B281598820099464B /* Dersu WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dersu WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		834D4A7F281598820099464B /* Dersu_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dersu_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		834D4A85281598820099464B /* Dersu WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dersu WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		834D4A89281598820099464B /* Dersu_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dersu_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		834D4A8B281598820099464B /* Dersu_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dersu_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		834D4A342815987A0099464B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D4A442815987E0099464B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D4A4E2815987E0099464B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D4A63281598800099464B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D4A78281598820099464B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D4A82281598820099464B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		834D4A2E281598790099464B = {
+			isa = PBXGroup;
+			children = (
+				834D4A392815987A0099464B /* Dersu */,
+				834D4A4A2815987E0099464B /* DersuTests */,
+				834D4A542815987E0099464B /* DersuUITests */,
+				834D4A5F2815987E0099464B /* Dersu WatchKit App */,
+				834D4A6A281598800099464B /* Dersu WatchKit Extension */,
+				834D4A7E281598820099464B /* Dersu WatchKit AppTests */,
+				834D4A88281598820099464B /* Dersu WatchKit AppUITests */,
+				834D4A382815987A0099464B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		834D4A382815987A0099464B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				834D4A372815987A0099464B /* Dersu.app */,
+				834D4A472815987E0099464B /* DersuTests.xctest */,
+				834D4A512815987E0099464B /* DersuUITests.xctest */,
+				834D4A5B2815987E0099464B /* Dersu WatchKit App.app */,
+				834D4A66281598800099464B /* Dersu WatchKit Extension.appex */,
+				834D4A7B281598820099464B /* Dersu WatchKit AppTests.xctest */,
+				834D4A85281598820099464B /* Dersu WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		834D4A392815987A0099464B /* Dersu */ = {
+			isa = PBXGroup;
+			children = (
+				834D4A3A2815987A0099464B /* DersuApp.swift */,
+				834D4A3C2815987A0099464B /* ContentView.swift */,
+				834D4A3E2815987E0099464B /* Assets.xcassets */,
+				834D4A402815987E0099464B /* Preview Content */,
+			);
+			path = Dersu;
+			sourceTree = "<group>";
+		};
+		834D4A402815987E0099464B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				834D4A412815987E0099464B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		834D4A4A2815987E0099464B /* DersuTests */ = {
+			isa = PBXGroup;
+			children = (
+				834D4A4B2815987E0099464B /* DersuTests.swift */,
+			);
+			path = DersuTests;
+			sourceTree = "<group>";
+		};
+		834D4A542815987E0099464B /* DersuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				834D4A552815987E0099464B /* DersuUITests.swift */,
+				834D4A572815987E0099464B /* DersuUITestsLaunchTests.swift */,
+			);
+			path = DersuUITests;
+			sourceTree = "<group>";
+		};
+		834D4A5F2815987E0099464B /* Dersu WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				834D4A60281598800099464B /* Assets.xcassets */,
+			);
+			path = "Dersu WatchKit App";
+			sourceTree = "<group>";
+		};
+		834D4A6A281598800099464B /* Dersu WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				834D4A6B281598800099464B /* ContentView.swift */,
+				834D4A6D281598800099464B /* DersuApp.swift */,
+				834D4A6F281598800099464B /* ComplicationController.swift */,
+				834D4A71281598820099464B /* Assets.xcassets */,
+				834D4A76281598820099464B /* Info.plist */,
+				834D4A73281598820099464B /* Preview Content */,
+			);
+			path = "Dersu WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		834D4A73281598820099464B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				834D4A74281598820099464B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		834D4A7E281598820099464B /* Dersu WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				834D4A7F281598820099464B /* Dersu_WatchKit_AppTests.swift */,
+			);
+			path = "Dersu WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		834D4A88281598820099464B /* Dersu WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				834D4A89281598820099464B /* Dersu_WatchKit_AppUITests.swift */,
+				834D4A8B281598820099464B /* Dersu_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "Dersu WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		834D4A362815987A0099464B /* Dersu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834D4A97281598820099464B /* Build configuration list for PBXNativeTarget "Dersu" */;
+			buildPhases = (
+				834D4A332815987A0099464B /* Sources */,
+				834D4A342815987A0099464B /* Frameworks */,
+				834D4A352815987A0099464B /* Resources */,
+				834D4A96281598820099464B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				834D4A5E2815987E0099464B /* PBXTargetDependency */,
+			);
+			name = Dersu;
+			productName = Dersu;
+			productReference = 834D4A372815987A0099464B /* Dersu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		834D4A462815987E0099464B /* DersuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834D4A9A281598820099464B /* Build configuration list for PBXNativeTarget "DersuTests" */;
+			buildPhases = (
+				834D4A432815987E0099464B /* Sources */,
+				834D4A442815987E0099464B /* Frameworks */,
+				834D4A452815987E0099464B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				834D4A492815987E0099464B /* PBXTargetDependency */,
+			);
+			name = DersuTests;
+			productName = DersuTests;
+			productReference = 834D4A472815987E0099464B /* DersuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		834D4A502815987E0099464B /* DersuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834D4A9D281598820099464B /* Build configuration list for PBXNativeTarget "DersuUITests" */;
+			buildPhases = (
+				834D4A4D2815987E0099464B /* Sources */,
+				834D4A4E2815987E0099464B /* Frameworks */,
+				834D4A4F2815987E0099464B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				834D4A532815987E0099464B /* PBXTargetDependency */,
+			);
+			name = DersuUITests;
+			productName = DersuUITests;
+			productReference = 834D4A512815987E0099464B /* DersuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		834D4A5A2815987E0099464B /* Dersu WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834D4A93281598820099464B /* Build configuration list for PBXNativeTarget "Dersu WatchKit App" */;
+			buildPhases = (
+				834D4A592815987E0099464B /* Resources */,
+				834D4A92281598820099464B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				834D4A69281598800099464B /* PBXTargetDependency */,
+			);
+			name = "Dersu WatchKit App";
+			productName = "Dersu WatchKit App";
+			productReference = 834D4A5B2815987E0099464B /* Dersu WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		834D4A65281598800099464B /* Dersu WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834D4A8F281598820099464B /* Build configuration list for PBXNativeTarget "Dersu WatchKit Extension" */;
+			buildPhases = (
+				834D4A62281598800099464B /* Sources */,
+				834D4A63281598800099464B /* Frameworks */,
+				834D4A64281598800099464B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dersu WatchKit Extension";
+			productName = "Dersu WatchKit Extension";
+			productReference = 834D4A66281598800099464B /* Dersu WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		834D4A7A281598820099464B /* Dersu WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834D4AA0281598820099464B /* Build configuration list for PBXNativeTarget "Dersu WatchKit AppTests" */;
+			buildPhases = (
+				834D4A77281598820099464B /* Sources */,
+				834D4A78281598820099464B /* Frameworks */,
+				834D4A79281598820099464B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				834D4A7D281598820099464B /* PBXTargetDependency */,
+			);
+			name = "Dersu WatchKit AppTests";
+			productName = "Dersu WatchKit AppTests";
+			productReference = 834D4A7B281598820099464B /* Dersu WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		834D4A84281598820099464B /* Dersu WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834D4AA3281598820099464B /* Build configuration list for PBXNativeTarget "Dersu WatchKit AppUITests" */;
+			buildPhases = (
+				834D4A81281598820099464B /* Sources */,
+				834D4A82281598820099464B /* Frameworks */,
+				834D4A83281598820099464B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				834D4A87281598820099464B /* PBXTargetDependency */,
+			);
+			name = "Dersu WatchKit AppUITests";
+			productName = "Dersu WatchKit AppUITests";
+			productReference = 834D4A85281598820099464B /* Dersu WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		834D4A2F281598790099464B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					834D4A362815987A0099464B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					834D4A462815987E0099464B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 834D4A362815987A0099464B;
+					};
+					834D4A502815987E0099464B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 834D4A362815987A0099464B;
+					};
+					834D4A5A2815987E0099464B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					834D4A65281598800099464B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					834D4A7A281598820099464B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 834D4A65281598800099464B;
+					};
+					834D4A84281598820099464B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 834D4A5A2815987E0099464B;
+					};
+				};
+			};
+			buildConfigurationList = 834D4A32281598790099464B /* Build configuration list for PBXProject "Dersu" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 834D4A2E281598790099464B;
+			productRefGroup = 834D4A382815987A0099464B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				834D4A362815987A0099464B /* Dersu */,
+				834D4A462815987E0099464B /* DersuTests */,
+				834D4A502815987E0099464B /* DersuUITests */,
+				834D4A5A2815987E0099464B /* Dersu WatchKit App */,
+				834D4A65281598800099464B /* Dersu WatchKit Extension */,
+				834D4A7A281598820099464B /* Dersu WatchKit AppTests */,
+				834D4A84281598820099464B /* Dersu WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		834D4A352815987A0099464B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834D4A422815987E0099464B /* Preview Assets.xcassets in Resources */,
+				834D4A3F2815987E0099464B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D4A452815987E0099464B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D4A4F2815987E0099464B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D4A592815987E0099464B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834D4A61281598800099464B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D4A64281598800099464B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834D4A75281598820099464B /* Preview Assets.xcassets in Resources */,
+				834D4A72281598820099464B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D4A79281598820099464B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D4A83281598820099464B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		834D4A332815987A0099464B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834D4A3D2815987A0099464B /* ContentView.swift in Sources */,
+				834D4A3B2815987A0099464B /* DersuApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D4A432815987E0099464B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834D4A4C2815987E0099464B /* DersuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D4A4D2815987E0099464B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834D4A582815987E0099464B /* DersuUITestsLaunchTests.swift in Sources */,
+				834D4A562815987E0099464B /* DersuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D4A62281598800099464B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834D4A6C281598800099464B /* ContentView.swift in Sources */,
+				834D4A6E281598800099464B /* DersuApp.swift in Sources */,
+				834D4A70281598800099464B /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D4A77281598820099464B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834D4A80281598820099464B /* Dersu_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D4A81281598820099464B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834D4A8A281598820099464B /* Dersu_WatchKit_AppUITests.swift in Sources */,
+				834D4A8C281598820099464B /* Dersu_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		834D4A492815987E0099464B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834D4A362815987A0099464B /* Dersu */;
+			targetProxy = 834D4A482815987E0099464B /* PBXContainerItemProxy */;
+		};
+		834D4A532815987E0099464B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834D4A362815987A0099464B /* Dersu */;
+			targetProxy = 834D4A522815987E0099464B /* PBXContainerItemProxy */;
+		};
+		834D4A5E2815987E0099464B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834D4A5A2815987E0099464B /* Dersu WatchKit App */;
+			targetProxy = 834D4A5D2815987E0099464B /* PBXContainerItemProxy */;
+		};
+		834D4A69281598800099464B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834D4A65281598800099464B /* Dersu WatchKit Extension */;
+			targetProxy = 834D4A68281598800099464B /* PBXContainerItemProxy */;
+		};
+		834D4A7D281598820099464B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834D4A65281598800099464B /* Dersu WatchKit Extension */;
+			targetProxy = 834D4A7C281598820099464B /* PBXContainerItemProxy */;
+		};
+		834D4A87281598820099464B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834D4A5A2815987E0099464B /* Dersu WatchKit App */;
+			targetProxy = 834D4A86281598820099464B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		834D4A8D281598820099464B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		834D4A8E281598820099464B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		834D4A90281598820099464B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dersu WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TNZ35SGHD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dersu WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dersu WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DanilaG.Dersu.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		834D4A91281598820099464B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dersu WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TNZ35SGHD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dersu WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dersu WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DanilaG.Dersu.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		834D4A94281598820099464B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TNZ35SGHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Dersu_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dersu WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = DanilaG.Dersu;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DanilaG.Dersu.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		834D4A95281598820099464B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TNZ35SGHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Dersu_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dersu WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = DanilaG.Dersu;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DanilaG.Dersu.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		834D4A98281598820099464B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dersu/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TNZ35SGHD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DanilaG.Dersu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		834D4A99281598820099464B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dersu/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TNZ35SGHD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DanilaG.Dersu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		834D4A9B281598820099464B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TNZ35SGHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DanilaG.DersuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dersu.app/Dersu";
+			};
+			name = Debug;
+		};
+		834D4A9C281598820099464B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TNZ35SGHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DanilaG.DersuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dersu.app/Dersu";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		834D4A9E281598820099464B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TNZ35SGHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DanilaG.DersuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dersu;
+			};
+			name = Debug;
+		};
+		834D4A9F281598820099464B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TNZ35SGHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DanilaG.DersuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dersu;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		834D4AA1281598820099464B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TNZ35SGHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DanilaG.Dersu-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dersu WatchKit Extension.appex/Dersu WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		834D4AA2281598820099464B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TNZ35SGHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DanilaG.Dersu-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dersu WatchKit Extension.appex/Dersu WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		834D4AA4281598820099464B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TNZ35SGHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DanilaG.Dersu-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Dersu WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		834D4AA5281598820099464B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TNZ35SGHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DanilaG.Dersu-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Dersu WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		834D4A32281598790099464B /* Build configuration list for PBXProject "Dersu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834D4A8D281598820099464B /* Debug */,
+				834D4A8E281598820099464B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834D4A8F281598820099464B /* Build configuration list for PBXNativeTarget "Dersu WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834D4A90281598820099464B /* Debug */,
+				834D4A91281598820099464B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834D4A93281598820099464B /* Build configuration list for PBXNativeTarget "Dersu WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834D4A94281598820099464B /* Debug */,
+				834D4A95281598820099464B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834D4A97281598820099464B /* Build configuration list for PBXNativeTarget "Dersu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834D4A98281598820099464B /* Debug */,
+				834D4A99281598820099464B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834D4A9A281598820099464B /* Build configuration list for PBXNativeTarget "DersuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834D4A9B281598820099464B /* Debug */,
+				834D4A9C281598820099464B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834D4A9D281598820099464B /* Build configuration list for PBXNativeTarget "DersuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834D4A9E281598820099464B /* Debug */,
+				834D4A9F281598820099464B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834D4AA0281598820099464B /* Build configuration list for PBXNativeTarget "Dersu WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834D4AA1281598820099464B /* Debug */,
+				834D4AA2281598820099464B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834D4AA3281598820099464B /* Build configuration list for PBXNativeTarget "Dersu WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834D4AA4281598820099464B /* Debug */,
+				834D4AA5281598820099464B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 834D4A2F281598790099464B /* Project object */;
+}
