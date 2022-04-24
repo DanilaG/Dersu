@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		292A2FEDC82A47855D0002B0 /* Pods_Dersu_WatchKit_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AA7DF4A338A31AEC816EC3 /* Pods_Dersu_WatchKit_AppTests.framework */; };
+		334AD38B067AE49B4CD1E57A /* Pods_DersuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E759790AC42EB9D1F84356 /* Pods_DersuTests.framework */; };
+		48001B3F1F087A2CB1CB5839 /* Pods_Dersu_WatchKit_App_Dersu_WatchKit_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A9B7D32F65596FBFD3432E /* Pods_Dersu_WatchKit_App_Dersu_WatchKit_AppUITests.framework */; };
+		6E2FBD08F48F1F4C15EC0C7A /* Pods_Dersu_DersuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD1922D4C6FF8D3B0EB3246 /* Pods_Dersu_DersuUITests.framework */; };
 		834D4A3B2815987A0099464B /* DersuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4A3A2815987A0099464B /* DersuApp.swift */; };
 		834D4A3D2815987A0099464B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4A3C2815987A0099464B /* ContentView.swift */; };
 		834D4A3F2815987E0099464B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834D4A3E2815987E0099464B /* Assets.xcassets */; };
@@ -25,6 +29,9 @@
 		834D4A80281598820099464B /* Dersu_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4A7F281598820099464B /* Dersu_WatchKit_AppTests.swift */; };
 		834D4A8A281598820099464B /* Dersu_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4A89281598820099464B /* Dersu_WatchKit_AppUITests.swift */; };
 		834D4A8C281598820099464B /* Dersu_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4A8B281598820099464B /* Dersu_WatchKit_AppUITestsLaunchTests.swift */; };
+		BB1940238FFE35C1ED926C52 /* Pods_Dersu_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7207B423652302ECEBB40DFC /* Pods_Dersu_WatchKit_App.framework */; };
+		DB8C10E900DBE6FF8DD5FFC7 /* Pods_Dersu_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3C98EC55D405CBCF62173E /* Pods_Dersu_WatchKit_Extension.framework */; };
+		F6A52D433F23BB0655E4AE02 /* Pods_Dersu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C088C0D73DF84AD0165DC28F /* Pods_Dersu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +105,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0BD1922D4C6FF8D3B0EB3246 /* Pods_Dersu_DersuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dersu_DersuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA1388516B33400461B3CF4 /* Pods-DersuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DersuTests.debug.xcconfig"; path = "Target Support Files/Pods-DersuTests/Pods-DersuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BE018B84309616DA5655A1A /* Pods-Dersu WatchKit App-Dersu WatchKit AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dersu WatchKit App-Dersu WatchKit AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Dersu WatchKit App-Dersu WatchKit AppUITests/Pods-Dersu WatchKit App-Dersu WatchKit AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		51CD6ECB24CEE800BE6189BA /* Pods-Dersu WatchKit AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dersu WatchKit AppTests.release.xcconfig"; path = "Target Support Files/Pods-Dersu WatchKit AppTests/Pods-Dersu WatchKit AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		59785FB1B26EDCFAEEF28675 /* Pods-Dersu-DersuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dersu-DersuUITests.debug.xcconfig"; path = "Target Support Files/Pods-Dersu-DersuUITests/Pods-Dersu-DersuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C0BBE1D58DB452CAB52746C /* Pods-Dersu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dersu.release.xcconfig"; path = "Target Support Files/Pods-Dersu/Pods-Dersu.release.xcconfig"; sourceTree = "<group>"; };
+		6F5423A61A29DA5A33811691 /* Pods-Dersu WatchKit App-Dersu WatchKit AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dersu WatchKit App-Dersu WatchKit AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Dersu WatchKit App-Dersu WatchKit AppUITests/Pods-Dersu WatchKit App-Dersu WatchKit AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7207B423652302ECEBB40DFC /* Pods_Dersu_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dersu_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77AA7DF4A338A31AEC816EC3 /* Pods_Dersu_WatchKit_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dersu_WatchKit_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		834D4A372815987A0099464B /* Dersu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dersu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		834D4A3A2815987A0099464B /* DersuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DersuApp.swift; sourceTree = "<group>"; };
 		834D4A3C2815987A0099464B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -122,6 +138,18 @@
 		834D4A85281598820099464B /* Dersu WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dersu WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		834D4A89281598820099464B /* Dersu_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dersu_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
 		834D4A8B281598820099464B /* Dersu_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dersu_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CDCC23BDD445B58D03F53FC /* Pods-DersuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DersuTests.release.xcconfig"; path = "Target Support Files/Pods-DersuTests/Pods-DersuTests.release.xcconfig"; sourceTree = "<group>"; };
+		95755B617E80065F3510349A /* Pods-Dersu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dersu.debug.xcconfig"; path = "Target Support Files/Pods-Dersu/Pods-Dersu.debug.xcconfig"; sourceTree = "<group>"; };
+		97E759790AC42EB9D1F84356 /* Pods_DersuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DersuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0F14E0C0D08EFA5084D98F /* Pods-Dersu WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dersu WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-Dersu WatchKit Extension/Pods-Dersu WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		AF3C98EC55D405CBCF62173E /* Pods_Dersu_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dersu_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A9B7D32F65596FBFD3432E /* Pods_Dersu_WatchKit_App_Dersu_WatchKit_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dersu_WatchKit_App_Dersu_WatchKit_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C088C0D73DF84AD0165DC28F /* Pods_Dersu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dersu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1191E37DD0D151792726F77 /* Pods-Dersu WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dersu WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-Dersu WatchKit Extension/Pods-Dersu WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		E75BC72D28D4F2D1CB2D0A06 /* Pods-Dersu WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dersu WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-Dersu WatchKit App/Pods-Dersu WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		EEBF9746AD4EB94A013DE8D6 /* Pods-Dersu WatchKit AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dersu WatchKit AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Dersu WatchKit AppTests/Pods-Dersu WatchKit AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F018BF547054CEE53E1F3D34 /* Pods-Dersu-DersuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dersu-DersuUITests.release.xcconfig"; path = "Target Support Files/Pods-Dersu-DersuUITests/Pods-Dersu-DersuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD636606C2CDC27CED6394F0 /* Pods-Dersu WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dersu WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-Dersu WatchKit App/Pods-Dersu WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +157,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6A52D433F23BB0655E4AE02 /* Pods_Dersu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +165,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				334AD38B067AE49B4CD1E57A /* Pods_DersuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +173,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E2FBD08F48F1F4C15EC0C7A /* Pods_Dersu_DersuUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +181,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8C10E900DBE6FF8DD5FFC7 /* Pods_Dersu_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +189,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				292A2FEDC82A47855D0002B0 /* Pods_Dersu_WatchKit_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,12 +197,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48001B3F1F087A2CB1CB5839 /* Pods_Dersu_WatchKit_App_Dersu_WatchKit_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70DC7C26CDF3F195F3663FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1940238FFE35C1ED926C52 /* Pods_Dersu_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13C398468A91C0DC73F8BB10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C088C0D73DF84AD0165DC28F /* Pods_Dersu.framework */,
+				7207B423652302ECEBB40DFC /* Pods_Dersu_WatchKit_App.framework */,
+				B6A9B7D32F65596FBFD3432E /* Pods_Dersu_WatchKit_App_Dersu_WatchKit_AppUITests.framework */,
+				77AA7DF4A338A31AEC816EC3 /* Pods_Dersu_WatchKit_AppTests.framework */,
+				AF3C98EC55D405CBCF62173E /* Pods_Dersu_WatchKit_Extension.framework */,
+				0BD1922D4C6FF8D3B0EB3246 /* Pods_Dersu_DersuUITests.framework */,
+				97E759790AC42EB9D1F84356 /* Pods_DersuTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4567E512F35D02B6A832E905 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95755B617E80065F3510349A /* Pods-Dersu.debug.xcconfig */,
+				5C0BBE1D58DB452CAB52746C /* Pods-Dersu.release.xcconfig */,
+				FD636606C2CDC27CED6394F0 /* Pods-Dersu WatchKit App.debug.xcconfig */,
+				E75BC72D28D4F2D1CB2D0A06 /* Pods-Dersu WatchKit App.release.xcconfig */,
+				4BE018B84309616DA5655A1A /* Pods-Dersu WatchKit App-Dersu WatchKit AppUITests.debug.xcconfig */,
+				6F5423A61A29DA5A33811691 /* Pods-Dersu WatchKit App-Dersu WatchKit AppUITests.release.xcconfig */,
+				EEBF9746AD4EB94A013DE8D6 /* Pods-Dersu WatchKit AppTests.debug.xcconfig */,
+				51CD6ECB24CEE800BE6189BA /* Pods-Dersu WatchKit AppTests.release.xcconfig */,
+				D1191E37DD0D151792726F77 /* Pods-Dersu WatchKit Extension.debug.xcconfig */,
+				AF0F14E0C0D08EFA5084D98F /* Pods-Dersu WatchKit Extension.release.xcconfig */,
+				59785FB1B26EDCFAEEF28675 /* Pods-Dersu-DersuUITests.debug.xcconfig */,
+				F018BF547054CEE53E1F3D34 /* Pods-Dersu-DersuUITests.release.xcconfig */,
+				3FA1388516B33400461B3CF4 /* Pods-DersuTests.debug.xcconfig */,
+				8CDCC23BDD445B58D03F53FC /* Pods-DersuTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		834D4A2E281598790099464B = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +258,8 @@
 				834D4A7E281598820099464B /* Dersu WatchKit AppTests */,
 				834D4A88281598820099464B /* Dersu WatchKit AppUITests */,
 				834D4A382815987A0099464B /* Products */,
+				4567E512F35D02B6A832E905 /* Pods */,
+				13C398468A91C0DC73F8BB10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -287,6 +366,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 834D4A97281598820099464B /* Build configuration list for PBXNativeTarget "Dersu" */;
 			buildPhases = (
+				834D4AA62815A1B00099464B /* Run Linter */,
+				BCA8B1C9DB0049233D800B87 /* [CP] Check Pods Manifest.lock */,
 				834D4A332815987A0099464B /* Sources */,
 				834D4A342815987A0099464B /* Frameworks */,
 				834D4A352815987A0099464B /* Resources */,
@@ -306,6 +387,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 834D4A9A281598820099464B /* Build configuration list for PBXNativeTarget "DersuTests" */;
 			buildPhases = (
+				C48E52D66E05EC333CBDC63F /* [CP] Check Pods Manifest.lock */,
 				834D4A432815987E0099464B /* Sources */,
 				834D4A442815987E0099464B /* Frameworks */,
 				834D4A452815987E0099464B /* Resources */,
@@ -324,6 +406,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 834D4A9D281598820099464B /* Build configuration list for PBXNativeTarget "DersuUITests" */;
 			buildPhases = (
+				10163135D9877D74F79F52CB /* [CP] Check Pods Manifest.lock */,
 				834D4A4D2815987E0099464B /* Sources */,
 				834D4A4E2815987E0099464B /* Frameworks */,
 				834D4A4F2815987E0099464B /* Resources */,
@@ -342,8 +425,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 834D4A93281598820099464B /* Build configuration list for PBXNativeTarget "Dersu WatchKit App" */;
 			buildPhases = (
+				A997A85DC382BC13C751AAE4 /* [CP] Check Pods Manifest.lock */,
 				834D4A592815987E0099464B /* Resources */,
 				834D4A92281598820099464B /* Embed App Extensions */,
+				D70DC7C26CDF3F195F3663FF /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -359,6 +444,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 834D4A8F281598820099464B /* Build configuration list for PBXNativeTarget "Dersu WatchKit Extension" */;
 			buildPhases = (
+				834D4AA72815A25C0099464B /* Run Linter */,
+				844ABFE0D7430611050CA4C3 /* [CP] Check Pods Manifest.lock */,
 				834D4A62281598800099464B /* Sources */,
 				834D4A63281598800099464B /* Frameworks */,
 				834D4A64281598800099464B /* Resources */,
@@ -376,6 +463,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 834D4AA0281598820099464B /* Build configuration list for PBXNativeTarget "Dersu WatchKit AppTests" */;
 			buildPhases = (
+				C9B8C369D5C56C06D7B3F9AE /* [CP] Check Pods Manifest.lock */,
 				834D4A77281598820099464B /* Sources */,
 				834D4A78281598820099464B /* Frameworks */,
 				834D4A79281598820099464B /* Resources */,
@@ -394,6 +482,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 834D4AA3281598820099464B /* Build configuration list for PBXNativeTarget "Dersu WatchKit AppUITests" */;
 			buildPhases = (
+				67656874D327F8905F8D9EA5 /* [CP] Check Pods Manifest.lock */,
 				834D4A81281598820099464B /* Sources */,
 				834D4A82281598820099464B /* Frameworks */,
 				834D4A83281598820099464B /* Resources */,
@@ -525,6 +614,199 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10163135D9877D74F79F52CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dersu-DersuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67656874D327F8905F8D9EA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dersu WatchKit App-Dersu WatchKit AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		834D4AA62815A1B00099464B /* Run Linter */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Linter";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		834D4AA72815A25C0099464B /* Run Linter */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Linter";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		844ABFE0D7430611050CA4C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dersu WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A997A85DC382BC13C751AAE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dersu WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCA8B1C9DB0049233D800B87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dersu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C48E52D66E05EC333CBDC63F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DersuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9B8C369D5C56C06D7B3F9AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dersu WatchKit AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		834D4A332815987A0099464B /* Sources */ = {
@@ -727,6 +1009,7 @@
 		};
 		834D4A90281598820099464B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1191E37DD0D151792726F77 /* Pods-Dersu WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -759,6 +1042,7 @@
 		};
 		834D4A91281598820099464B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0F14E0C0D08EFA5084D98F /* Pods-Dersu WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -792,6 +1076,7 @@
 		};
 		834D4A94281598820099464B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD636606C2CDC27CED6394F0 /* Pods-Dersu WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -818,6 +1103,7 @@
 		};
 		834D4A95281598820099464B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E75BC72D28D4F2D1CB2D0A06 /* Pods-Dersu WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -845,6 +1131,7 @@
 		};
 		834D4A98281598820099464B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95755B617E80065F3510349A /* Pods-Dersu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -876,6 +1163,7 @@
 		};
 		834D4A99281598820099464B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C0BBE1D58DB452CAB52746C /* Pods-Dersu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -908,6 +1196,7 @@
 		};
 		834D4A9B281598820099464B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA1388516B33400461B3CF4 /* Pods-DersuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -929,6 +1218,7 @@
 		};
 		834D4A9C281598820099464B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CDCC23BDD445B58D03F53FC /* Pods-DersuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -951,6 +1241,7 @@
 		};
 		834D4A9E281598820099464B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59785FB1B26EDCFAEEF28675 /* Pods-Dersu-DersuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -971,6 +1262,7 @@
 		};
 		834D4A9F281598820099464B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F018BF547054CEE53E1F3D34 /* Pods-Dersu-DersuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -992,6 +1284,7 @@
 		};
 		834D4AA1281598820099464B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEBF9746AD4EB94A013DE8D6 /* Pods-Dersu WatchKit AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1013,6 +1306,7 @@
 		};
 		834D4AA2281598820099464B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51CD6ECB24CEE800BE6189BA /* Pods-Dersu WatchKit AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1035,6 +1329,7 @@
 		};
 		834D4AA4281598820099464B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BE018B84309616DA5655A1A /* Pods-Dersu WatchKit App-Dersu WatchKit AppUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1054,6 +1349,7 @@
 		};
 		834D4AA5281598820099464B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5423A61A29DA5A33811691 /* Pods-Dersu WatchKit App-Dersu WatchKit AppUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

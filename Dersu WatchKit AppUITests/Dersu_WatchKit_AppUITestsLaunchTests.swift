@@ -7,7 +7,7 @@
 
 import XCTest
 
-class Dersu_WatchKit_AppUITestsLaunchTests: XCTestCase {
+class DersuWatchKitAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
