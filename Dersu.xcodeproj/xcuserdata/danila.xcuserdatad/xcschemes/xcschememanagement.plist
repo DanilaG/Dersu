@@ -12,12 +12,32 @@
 		<key>Dersu WatchKit App.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>10</integer>
 		</dict>
 		<key>Dersu.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>DersuSharedTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>DersuWatchApp (Complication).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>DersuWatchApp.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>10</integer>
+		</dict>
+		<key>DersuWatchTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 	</dict>
 </dict>
