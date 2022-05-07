@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		4B04ECC44CDC6761F930F81C /* Pods_DersuWatchExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACCE800D4D33F1B5A78E550 /* Pods_DersuWatchExtension.framework */; };
+		830078402826394200971294 /* LoxodromeCompass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8300783F2826394200971294 /* LoxodromeCompass.swift */; };
+		830078412826394200971294 /* LoxodromeCompass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8300783F2826394200971294 /* LoxodromeCompass.swift */; };
+		830078422826394200971294 /* LoxodromeCompass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8300783F2826394200971294 /* LoxodromeCompass.swift */; };
+		8300784428264FAB00971294 /* TestObjFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8300784328264FAB00971294 /* TestObjFactory.swift */; };
+		834A1F8528169650007DE942 /* Compass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A1F8428169650007DE942 /* Compass.swift */; };
+		834A1F8628169650007DE942 /* Compass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A1F8428169650007DE942 /* Compass.swift */; };
+		834A1F8728169650007DE942 /* Compass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A1F8428169650007DE942 /* Compass.swift */; };
+		834A1F8A281697B9007DE942 /* DerivedLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A1F89281697B9007DE942 /* DerivedLocation.swift */; };
+		834A1F8B281697B9007DE942 /* DerivedLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A1F89281697B9007DE942 /* DerivedLocation.swift */; };
+		834A1F8C281697B9007DE942 /* DerivedLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A1F89281697B9007DE942 /* DerivedLocation.swift */; };
+		834A1F8E281697F6007DE942 /* Measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A1F8D281697F6007DE942 /* Measurement.swift */; };
+		834A1F8F281697F6007DE942 /* Measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A1F8D281697F6007DE942 /* Measurement.swift */; };
+		834A1F90281697F6007DE942 /* Measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A1F8D281697F6007DE942 /* Measurement.swift */; };
+		834A1F9B2816B7DF007DE942 /* LoxodromeCompassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A1F9A2816B7DF007DE942 /* LoxodromeCompassTests.swift */; };
 		834D4A3B2815987A0099464B /* DersuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4A3A2815987A0099464B /* DersuApp.swift */; };
 		834D4A3D2815987A0099464B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4A3C2815987A0099464B /* ContentView.swift */; };
 		834D4A3F2815987E0099464B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834D4A3E2815987E0099464B /* Assets.xcassets */; };
@@ -97,6 +111,12 @@
 		5C0BBE1D58DB452CAB52746C /* Pods-Dersu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dersu.release.xcconfig"; path = "Target Support Files/Pods-Dersu/Pods-Dersu.release.xcconfig"; sourceTree = "<group>"; };
 		6F5423A61A29DA5A33811691 /* Pods-Dersu WatchKit App-Dersu WatchKit AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dersu WatchKit App-Dersu WatchKit AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Dersu WatchKit App-Dersu WatchKit AppUITests/Pods-Dersu WatchKit App-Dersu WatchKit AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7B85D87800F09EC4916D1FD5 /* Pods-DersuSharedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DersuSharedTests.debug.xcconfig"; path = "Target Support Files/Pods-DersuSharedTests/Pods-DersuSharedTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8300783F2826394200971294 /* LoxodromeCompass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoxodromeCompass.swift; sourceTree = "<group>"; };
+		8300784328264FAB00971294 /* TestObjFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObjFactory.swift; sourceTree = "<group>"; };
+		834A1F8428169650007DE942 /* Compass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compass.swift; sourceTree = "<group>"; };
+		834A1F89281697B9007DE942 /* DerivedLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DerivedLocation.swift; sourceTree = "<group>"; };
+		834A1F8D281697F6007DE942 /* Measurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measurement.swift; sourceTree = "<group>"; };
+		834A1F9A2816B7DF007DE942 /* LoxodromeCompassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoxodromeCompassTests.swift; sourceTree = "<group>"; };
 		834D4A372815987A0099464B /* Dersu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dersu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		834D4A3A2815987A0099464B /* DersuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DersuApp.swift; sourceTree = "<group>"; };
 		834D4A3C2815987A0099464B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -231,6 +251,24 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		8300783E282638F700971294 /* Compasses */ = {
+			isa = PBXGroup;
+			children = (
+				834A1F8428169650007DE942 /* Compass.swift */,
+				8300783F2826394200971294 /* LoxodromeCompass.swift */,
+			);
+			path = Compasses;
+			sourceTree = "<group>";
+		};
+		834A1F8828169732007DE942 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				834A1F89281697B9007DE942 /* DerivedLocation.swift */,
+				834A1F8D281697F6007DE942 /* Measurement.swift */,
+			);
+			path = Structures;
+			sourceTree = "<group>";
+		};
 		834D4A2E281598790099464B = {
 			isa = PBXGroup;
 			children = (
@@ -327,6 +365,8 @@
 		834D4B7A28167D3E0099464B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				834A1F8828169732007DE942 /* Structures */,
+				8300783E282638F700971294 /* Compasses */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -335,6 +375,8 @@
 			isa = PBXGroup;
 			children = (
 				834D4B9B2816874B0099464B /* DersuSharedTests.swift */,
+				834A1F9A2816B7DF007DE942 /* LoxodromeCompassTests.swift */,
+				8300784328264FAB00971294 /* TestObjFactory.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -817,8 +859,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830078402826394200971294 /* LoxodromeCompass.swift in Sources */,
 				834D4A3D2815987A0099464B /* ContentView.swift in Sources */,
 				834D4A3B2815987A0099464B /* DersuApp.swift in Sources */,
+				834A1F8E281697F6007DE942 /* Measurement.swift in Sources */,
+				834A1F8A281697B9007DE942 /* DerivedLocation.swift in Sources */,
+				834A1F8528169650007DE942 /* Compass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -828,6 +874,10 @@
 			files = (
 				834D4A6C281598800099464B /* ContentView.swift in Sources */,
 				834D4A6E281598800099464B /* DersuApp.swift in Sources */,
+				834A1F8F281697F6007DE942 /* Measurement.swift in Sources */,
+				830078412826394200971294 /* LoxodromeCompass.swift in Sources */,
+				834A1F8628169650007DE942 /* Compass.swift in Sources */,
+				834A1F8B281697B9007DE942 /* DerivedLocation.swift in Sources */,
 				834D4A70281598800099464B /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -836,6 +886,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830078422826394200971294 /* LoxodromeCompass.swift in Sources */,
+				834A1F8C281697B9007DE942 /* DerivedLocation.swift in Sources */,
+				834A1F9B2816B7DF007DE942 /* LoxodromeCompassTests.swift in Sources */,
+				834A1F8728169650007DE942 /* Compass.swift in Sources */,
+				8300784428264FAB00971294 /* TestObjFactory.swift in Sources */,
+				834A1F90281697F6007DE942 /* Measurement.swift in Sources */,
 				834D4B9C2816874B0099464B /* DersuSharedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
