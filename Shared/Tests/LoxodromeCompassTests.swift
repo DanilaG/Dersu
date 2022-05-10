@@ -274,9 +274,9 @@ extension LoxodromeCompassTests {
         let compass = TestObjFactory.getLoxodromeCompass()
 
         let expectation = XCTestExpectation(description: "Didn't publish destination changes")
-        compass.objectWillChange.sink {
+        compass.onUpdated = {
             expectation.fulfill()
-        }.store(in: &cancellable)
+        }
 
         compass.destination = TestObjFactory.getLocation(latitude: 1)
 
@@ -288,9 +288,9 @@ extension LoxodromeCompassTests {
         let compass = TestObjFactory.getLoxodromeCompass(basedOn: locationManager)
 
         let expectation = XCTestExpectation(description: "Didn't publish on location update")
-        compass.objectWillChange.sink {
+        compass.onUpdated = {
             expectation.fulfill()
-        }.store(in: &cancellable)
+        }
 
         locationManager.location = TestObjFactory.getLocation(latitude: 1)
 
@@ -302,9 +302,9 @@ extension LoxodromeCompassTests {
         let compass = TestObjFactory.getLoxodromeCompass(basedOn: locationManager)
 
         let expectation = XCTestExpectation(description: "Didn't publish on magneticHeading update")
-        compass.objectWillChange.sink {
+        compass.onUpdated = {
             expectation.fulfill()
-        }.store(in: &cancellable)
+        }
 
         locationManager.magneticHeading = DRMeasurement(0.5, error: 1.1)
 

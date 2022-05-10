@@ -12,7 +12,11 @@ import Combine
 class DRLoxodromeCompass: DRCompass {
 
     var destination: DRLocation {
-        didSet { objectWillChange.send() }
+        didSet { onUpdated?() }
+    }
+
+    var location: DRLocation? {
+        locationManager.location
     }
 
     var distance: DRMeasurement<DRDistance>? {
@@ -41,6 +45,8 @@ class DRLoxodromeCompass: DRCompass {
     private(set) var warnings: [DRCompassWarning] = []
 
     private(set) var error: DRCompassError?
+
+    var onUpdated: (() -> Void)?
 
     fileprivate var locationManager: DRLocationManager
 
@@ -211,7 +217,7 @@ extension DRLoxodromeCompass {
             .sink { [weak self] _ in
                 self?.updateError()
                 self?.updateWarnings()
-                self?.objectWillChange.send()
+                self?.onUpdated?()
             }
             .store(in: &publisherStorage)
     }
@@ -221,7 +227,7 @@ extension DRLoxodromeCompass {
             .sink { [weak self] _ in
                 self?.updateError()
                 self?.updateWarnings()
-                self?.objectWillChange.send()
+                self?.onUpdated?()
             }
             .store(in: &publisherStorage)
     }

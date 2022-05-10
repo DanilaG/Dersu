@@ -70,7 +70,33 @@ class TestObjFactory {
         return locationManager
     }
 
+    static func getTarget(
+        name: String = "Test",
+        icon: String = "Test",
+        id: UUID = UUID(),
+        updated: Date = Date(),
+        compass: DRCompass = TestObjFactory.getLoxodromeCompass()
+    ) -> DRTarget {
+
+        return DRTargetImpl(name: name, icon: icon, id: id, updated: updated, compass: compass)
+    }
+
+    static func getDBWrappedTarget(
+        initTarget: DRTarget = TestObjFactory.getTarget(),
+        delegate: DRTargetStoredDataUpdateDelegate = TestTargetStoredDataUpdateDelegate()
+    ) -> DRTarget {
+        DRTargetDBWrapper(for: initTarget, delegate: delegate)
+    }
+
+    static func getRestrictedWrappedTarget(
+        initTarget: DRTarget = TestObjFactory.getTarget(),
+        delegate: DRTargetRestrictorDelegate = TestTargetRestrictorDelegate()
+    ) -> DRRestrictedTarget {
+        DRTargetRestrictorWrapper(for: initTarget, delegate: delegate)
+    }
+
     class TestLocationManager: DRLocationManager {
+
         @Published var location: DRLocation?
 
         var locationPublisher: Published<DRLocation?>.Publisher {
@@ -81,6 +107,57 @@ class TestObjFactory {
 
         var magneticHeadingPublisher: Published<DRMeasurement<DRDirection>?>.Publisher {
             $magneticHeading
+        }
+    }
+
+    class TestTargetStoredDataUpdateDelegate: DRTargetStoredDataUpdateDelegate {
+
+        var targetNameUpdated: (() -> Void)?
+        func targetUpdated(_ target: DRTarget, name: String) {
+            targetNameUpdated?()
+        }
+
+        var targetIconUpdated: (() -> Void)?
+        func targetUpdated(_ target: DRTarget, icon: String) {
+            targetIconUpdated?()
+        }
+
+        var targetDestinationUpdated: (() -> Void)?
+        func targetUpdated(_ target: DRTarget, destination: DRLocation) {
+            targetDestinationUpdated?()
+        }
+    }
+
+    class TestTargetRestrictorDelegate: DRTargetRestrictorDelegate {
+
+        var restrictedTargetCanChangeName: (() -> Bool)?
+        func restrictedTargetCanChangeName(_ target: DRTarget) -> Bool {
+            restrictedTargetCanChangeName?() ?? true
+        }
+
+        var restrictedTargetCanChangeIcon: (() -> Bool)?
+        func restrictedTargetCanChangeIcon(_ target: DRTarget) -> Bool {
+            restrictedTargetCanChangeIcon?() ?? true
+        }
+
+        var restrictedTargetCanChangeDestination: (() -> Bool)?
+        func restrictedTargetCanChangeDestination(_ target: DRTarget) -> Bool {
+            restrictedTargetCanChangeDestination?() ?? true
+        }
+
+        var restrictedTargetChangedName: (() -> Void)?
+        func restrictedTargetChanged(_ target: DRTarget, name: String) {
+            restrictedTargetChangedName?()
+        }
+
+        var restrictedTargetChangedIcon: (() -> Void)?
+        func restrictedTargetChanged(_ target: DRTarget, icon: String) {
+            restrictedTargetChangedIcon?()
+        }
+
+        var restrictedTargetChangedDestination: (() -> Void)?
+        func restrictedTargetChanged(_ target: DRTarget, destination: DRLocation) {
+            restrictedTargetChangedDestination?()
         }
     }
 }

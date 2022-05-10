@@ -12,6 +12,21 @@
 		830078412826394200971294 /* LoxodromeCompass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8300783F2826394200971294 /* LoxodromeCompass.swift */; };
 		830078422826394200971294 /* LoxodromeCompass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8300783F2826394200971294 /* LoxodromeCompass.swift */; };
 		8300784428264FAB00971294 /* TestObjFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8300784328264FAB00971294 /* TestObjFactory.swift */; };
+		830078482826AC5500971294 /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078472826AC5500971294 /* Target.swift */; };
+		830078492826AC5500971294 /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078472826AC5500971294 /* Target.swift */; };
+		8300784A2826AC6E00971294 /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078472826AC5500971294 /* Target.swift */; };
+		8300784D2826B2CF00971294 /* SelfUpdated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8300784C2826B2CF00971294 /* SelfUpdated.swift */; };
+		8300784E2826B2CF00971294 /* SelfUpdated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8300784C2826B2CF00971294 /* SelfUpdated.swift */; };
+		8300784F2826B2CF00971294 /* SelfUpdated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8300784C2826B2CF00971294 /* SelfUpdated.swift */; };
+		830078512826BCC600971294 /* TargeDBWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078502826BCC600971294 /* TargeDBWrapper.swift */; };
+		830078522826BCC600971294 /* TargeDBWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078502826BCC600971294 /* TargeDBWrapper.swift */; };
+		830078532826BCC600971294 /* TargeDBWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078502826BCC600971294 /* TargeDBWrapper.swift */; };
+		830078552826C28400971294 /* TargetImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078542826C28400971294 /* TargetImpl.swift */; };
+		830078572826C86500971294 /* TargetDBWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078562826C86500971294 /* TargetDBWrapper.swift */; };
+		830078592826E4F000971294 /* RestrictedTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078582826E4F000971294 /* RestrictedTarget.swift */; };
+		8300785A2826E4F000971294 /* RestrictedTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078582826E4F000971294 /* RestrictedTarget.swift */; };
+		8300785B2826E4F000971294 /* RestrictedTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078582826E4F000971294 /* RestrictedTarget.swift */; };
+		8300785D2826E94800971294 /* TargetRestrictorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8300785C2826E94800971294 /* TargetRestrictorWrapper.swift */; };
 		834A1F8528169650007DE942 /* Compass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A1F8428169650007DE942 /* Compass.swift */; };
 		834A1F8628169650007DE942 /* Compass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A1F8428169650007DE942 /* Compass.swift */; };
 		834A1F8728169650007DE942 /* Compass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A1F8428169650007DE942 /* Compass.swift */; };
@@ -113,6 +128,13 @@
 		7B85D87800F09EC4916D1FD5 /* Pods-DersuSharedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DersuSharedTests.debug.xcconfig"; path = "Target Support Files/Pods-DersuSharedTests/Pods-DersuSharedTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8300783F2826394200971294 /* LoxodromeCompass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoxodromeCompass.swift; sourceTree = "<group>"; };
 		8300784328264FAB00971294 /* TestObjFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObjFactory.swift; sourceTree = "<group>"; };
+		830078472826AC5500971294 /* Target.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
+		8300784C2826B2CF00971294 /* SelfUpdated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfUpdated.swift; sourceTree = "<group>"; };
+		830078502826BCC600971294 /* TargeDBWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargeDBWrapper.swift; sourceTree = "<group>"; };
+		830078542826C28400971294 /* TargetImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetImpl.swift; sourceTree = "<group>"; };
+		830078562826C86500971294 /* TargetDBWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetDBWrapper.swift; sourceTree = "<group>"; };
+		830078582826E4F000971294 /* RestrictedTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictedTarget.swift; sourceTree = "<group>"; };
+		8300785C2826E94800971294 /* TargetRestrictorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetRestrictorWrapper.swift; sourceTree = "<group>"; };
 		834A1F8428169650007DE942 /* Compass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compass.swift; sourceTree = "<group>"; };
 		834A1F89281697B9007DE942 /* DerivedLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DerivedLocation.swift; sourceTree = "<group>"; };
 		834A1F8D281697F6007DE942 /* Measurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measurement.swift; sourceTree = "<group>"; };
@@ -260,6 +282,24 @@
 			path = Compasses;
 			sourceTree = "<group>";
 		};
+		830078452826ABD200971294 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				830078472826AC5500971294 /* Target.swift */,
+				830078502826BCC600971294 /* TargeDBWrapper.swift */,
+				830078582826E4F000971294 /* RestrictedTarget.swift */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		8300784B2826B2AA00971294 /* Helps */ = {
+			isa = PBXGroup;
+			children = (
+				8300784C2826B2CF00971294 /* SelfUpdated.swift */,
+			);
+			path = Helps;
+			sourceTree = "<group>";
+		};
 		834A1F8828169732007DE942 /* Structures */ = {
 			isa = PBXGroup;
 			children = (
@@ -365,8 +405,10 @@
 		834D4B7A28167D3E0099464B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8300784B2826B2AA00971294 /* Helps */,
 				834A1F8828169732007DE942 /* Structures */,
 				8300783E282638F700971294 /* Compasses */,
+				830078452826ABD200971294 /* Targets */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -376,6 +418,9 @@
 			children = (
 				834D4B9B2816874B0099464B /* DersuSharedTests.swift */,
 				834A1F9A2816B7DF007DE942 /* LoxodromeCompassTests.swift */,
+				830078542826C28400971294 /* TargetImpl.swift */,
+				830078562826C86500971294 /* TargetDBWrapper.swift */,
+				8300785C2826E94800971294 /* TargetRestrictorWrapper.swift */,
 				8300784328264FAB00971294 /* TestObjFactory.swift */,
 			);
 			path = Tests;
@@ -577,6 +622,7 @@
 					};
 					834D4A5A2815987E0099464B = {
 						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
 					};
 					834D4A65281598800099464B = {
 						CreatedOnToolsVersion = 13.3.1;
@@ -861,10 +907,14 @@
 			files = (
 				830078402826394200971294 /* LoxodromeCompass.swift in Sources */,
 				834D4A3D2815987A0099464B /* ContentView.swift in Sources */,
+				8300784D2826B2CF00971294 /* SelfUpdated.swift in Sources */,
+				830078482826AC5500971294 /* Target.swift in Sources */,
 				834D4A3B2815987A0099464B /* DersuApp.swift in Sources */,
+				830078512826BCC600971294 /* TargeDBWrapper.swift in Sources */,
 				834A1F8E281697F6007DE942 /* Measurement.swift in Sources */,
 				834A1F8A281697B9007DE942 /* DerivedLocation.swift in Sources */,
 				834A1F8528169650007DE942 /* Compass.swift in Sources */,
+				830078592826E4F000971294 /* RestrictedTarget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -875,10 +925,14 @@
 				834D4A6C281598800099464B /* ContentView.swift in Sources */,
 				834D4A6E281598800099464B /* DersuApp.swift in Sources */,
 				834A1F8F281697F6007DE942 /* Measurement.swift in Sources */,
+				830078522826BCC600971294 /* TargeDBWrapper.swift in Sources */,
+				8300785A2826E4F000971294 /* RestrictedTarget.swift in Sources */,
 				830078412826394200971294 /* LoxodromeCompass.swift in Sources */,
 				834A1F8628169650007DE942 /* Compass.swift in Sources */,
 				834A1F8B281697B9007DE942 /* DerivedLocation.swift in Sources */,
+				8300784A2826AC6E00971294 /* Target.swift in Sources */,
 				834D4A70281598800099464B /* ComplicationController.swift in Sources */,
+				8300784E2826B2CF00971294 /* SelfUpdated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -886,13 +940,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8300785B2826E4F000971294 /* RestrictedTarget.swift in Sources */,
+				830078552826C28400971294 /* TargetImpl.swift in Sources */,
 				830078422826394200971294 /* LoxodromeCompass.swift in Sources */,
 				834A1F8C281697B9007DE942 /* DerivedLocation.swift in Sources */,
 				834A1F9B2816B7DF007DE942 /* LoxodromeCompassTests.swift in Sources */,
+				8300785D2826E94800971294 /* TargetRestrictorWrapper.swift in Sources */,
+				830078532826BCC600971294 /* TargeDBWrapper.swift in Sources */,
 				834A1F8728169650007DE942 /* Compass.swift in Sources */,
+				830078572826C86500971294 /* TargetDBWrapper.swift in Sources */,
 				8300784428264FAB00971294 /* TestObjFactory.swift in Sources */,
 				834A1F90281697F6007DE942 /* Measurement.swift in Sources */,
+				830078492826AC5500971294 /* Target.swift in Sources */,
 				834D4B9C2816874B0099464B /* DersuSharedTests.swift in Sources */,
+				8300784F2826B2CF00971294 /* SelfUpdated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1121,6 +1182,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3TNZ35SGHD;
@@ -1129,12 +1191,19 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Dersu WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = DanilaG.Dersu;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = DanilaG.Dersu.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/Model/Targets/DersuWatchApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 8.5;
@@ -1148,6 +1217,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3TNZ35SGHD;
@@ -1156,12 +1226,18 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Dersu WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = DanilaG.Dersu;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = DanilaG.Dersu.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/Model/Targets/DersuWatchApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;

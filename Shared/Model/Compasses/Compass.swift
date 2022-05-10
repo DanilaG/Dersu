@@ -8,10 +8,13 @@
 import Foundation
 
 /// Provides distance, direction and height different to the destination
-protocol DRCompass: ObservableObject {
+protocol DRCompass: DRSelfUpdated {
 
     /// A destination location for the compass
     var destination: DRLocation { get set }
+
+    /// A current user location
+    var location: DRLocation? { get }
 
     /// A distance to the destination
     var distance: DRMeasurement<DRDistance>? { get }
