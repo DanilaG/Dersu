@@ -81,11 +81,11 @@ class TestObjFactory {
         return DRTargetImpl(name: name, icon: icon, id: id, updated: updated, compass: compass)
     }
 
-    static func getDBWrappedTarget(
+    static func getRepoWrappedTarget(
         initTarget: DRTarget = TestObjFactory.getTarget(),
-        delegate: DRTargetStoredDataUpdateDelegate = TestTargetStoredDataUpdateDelegate()
-    ) -> DRTarget {
-        DRTargetDBWrapper(for: initTarget, delegate: delegate)
+        delegate: DRTargetRepoUpdateDelegate = TestTargetRepoUpdateDelegate()
+    ) -> DRTargetRepoWrapper {
+        DRTargetRepoWrapper(for: initTarget, delegate: delegate)
     }
 
     static func getRestrictedWrappedTarget(
@@ -110,21 +110,21 @@ class TestObjFactory {
         }
     }
 
-    class TestTargetStoredDataUpdateDelegate: DRTargetStoredDataUpdateDelegate {
+    class TestTargetRepoUpdateDelegate: DRTargetRepoUpdateDelegate {
 
-        var targetNameUpdated: (() -> Void)?
-        func targetUpdated(_ target: DRTarget, name: String) {
-            targetNameUpdated?()
+        var targetNameUpdate: (() -> Void)?
+        func targetUpdate(_ target: DRTarget, name: String) {
+            targetNameUpdate?()
         }
 
-        var targetIconUpdated: (() -> Void)?
-        func targetUpdated(_ target: DRTarget, icon: String) {
-            targetIconUpdated?()
+        var targetIconUpdate: (() -> Void)?
+        func targetUpdate(_ target: DRTarget, icon: String) {
+            targetIconUpdate?()
         }
 
-        var targetDestinationUpdated: (() -> Void)?
-        func targetUpdated(_ target: DRTarget, destination: DRLocation) {
-            targetDestinationUpdated?()
+        var targetDestinationUpdate: (() -> Void)?
+        func targetUpdate(_ target: DRTarget, destination: DRLocation) {
+            targetDestinationUpdate?()
         }
     }
 

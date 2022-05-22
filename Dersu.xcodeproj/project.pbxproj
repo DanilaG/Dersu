@@ -18,11 +18,11 @@
 		8300784D2826B2CF00971294 /* SelfUpdated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8300784C2826B2CF00971294 /* SelfUpdated.swift */; };
 		8300784E2826B2CF00971294 /* SelfUpdated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8300784C2826B2CF00971294 /* SelfUpdated.swift */; };
 		8300784F2826B2CF00971294 /* SelfUpdated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8300784C2826B2CF00971294 /* SelfUpdated.swift */; };
-		830078512826BCC600971294 /* TargeDBWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078502826BCC600971294 /* TargeDBWrapper.swift */; };
-		830078522826BCC600971294 /* TargeDBWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078502826BCC600971294 /* TargeDBWrapper.swift */; };
-		830078532826BCC600971294 /* TargeDBWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078502826BCC600971294 /* TargeDBWrapper.swift */; };
+		830078512826BCC600971294 /* TargeRepoWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078502826BCC600971294 /* TargeRepoWrapper.swift */; };
+		830078522826BCC600971294 /* TargeRepoWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078502826BCC600971294 /* TargeRepoWrapper.swift */; };
+		830078532826BCC600971294 /* TargeRepoWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078502826BCC600971294 /* TargeRepoWrapper.swift */; };
 		830078552826C28400971294 /* TargetImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078542826C28400971294 /* TargetImpl.swift */; };
-		830078572826C86500971294 /* TargetDBWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078562826C86500971294 /* TargetDBWrapper.swift */; };
+		830078572826C86500971294 /* TargetRepoWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078562826C86500971294 /* TargetRepoWrapper.swift */; };
 		830078592826E4F000971294 /* RestrictedTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078582826E4F000971294 /* RestrictedTarget.swift */; };
 		8300785A2826E4F000971294 /* RestrictedTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078582826E4F000971294 /* RestrictedTarget.swift */; };
 		8300785B2826E4F000971294 /* RestrictedTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078582826E4F000971294 /* RestrictedTarget.swift */; };
@@ -130,9 +130,9 @@
 		8300784328264FAB00971294 /* TestObjFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObjFactory.swift; sourceTree = "<group>"; };
 		830078472826AC5500971294 /* Target.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
 		8300784C2826B2CF00971294 /* SelfUpdated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfUpdated.swift; sourceTree = "<group>"; };
-		830078502826BCC600971294 /* TargeDBWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargeDBWrapper.swift; sourceTree = "<group>"; };
+		830078502826BCC600971294 /* TargeRepoWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargeRepoWrapper.swift; sourceTree = "<group>"; };
 		830078542826C28400971294 /* TargetImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetImpl.swift; sourceTree = "<group>"; };
-		830078562826C86500971294 /* TargetDBWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetDBWrapper.swift; sourceTree = "<group>"; };
+		830078562826C86500971294 /* TargetRepoWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetRepoWrapper.swift; sourceTree = "<group>"; };
 		830078582826E4F000971294 /* RestrictedTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictedTarget.swift; sourceTree = "<group>"; };
 		8300785C2826E94800971294 /* TargetRestrictorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetRestrictorWrapper.swift; sourceTree = "<group>"; };
 		834A1F8428169650007DE942 /* Compass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compass.swift; sourceTree = "<group>"; };
@@ -286,7 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				830078472826AC5500971294 /* Target.swift */,
-				830078502826BCC600971294 /* TargeDBWrapper.swift */,
+				830078502826BCC600971294 /* TargeRepoWrapper.swift */,
 				830078582826E4F000971294 /* RestrictedTarget.swift */,
 			);
 			path = Targets;
@@ -419,7 +419,7 @@
 				834D4B9B2816874B0099464B /* DersuSharedTests.swift */,
 				834A1F9A2816B7DF007DE942 /* LoxodromeCompassTests.swift */,
 				830078542826C28400971294 /* TargetImpl.swift */,
-				830078562826C86500971294 /* TargetDBWrapper.swift */,
+				830078562826C86500971294 /* TargetRepoWrapper.swift */,
 				8300785C2826E94800971294 /* TargetRestrictorWrapper.swift */,
 				8300784328264FAB00971294 /* TestObjFactory.swift */,
 			);
@@ -910,7 +910,7 @@
 				8300784D2826B2CF00971294 /* SelfUpdated.swift in Sources */,
 				830078482826AC5500971294 /* Target.swift in Sources */,
 				834D4A3B2815987A0099464B /* DersuApp.swift in Sources */,
-				830078512826BCC600971294 /* TargeDBWrapper.swift in Sources */,
+				830078512826BCC600971294 /* TargeRepoWrapper.swift in Sources */,
 				834A1F8E281697F6007DE942 /* Measurement.swift in Sources */,
 				834A1F8A281697B9007DE942 /* DerivedLocation.swift in Sources */,
 				834A1F8528169650007DE942 /* Compass.swift in Sources */,
@@ -925,7 +925,7 @@
 				834D4A6C281598800099464B /* ContentView.swift in Sources */,
 				834D4A6E281598800099464B /* DersuApp.swift in Sources */,
 				834A1F8F281697F6007DE942 /* Measurement.swift in Sources */,
-				830078522826BCC600971294 /* TargeDBWrapper.swift in Sources */,
+				830078522826BCC600971294 /* TargeRepoWrapper.swift in Sources */,
 				8300785A2826E4F000971294 /* RestrictedTarget.swift in Sources */,
 				830078412826394200971294 /* LoxodromeCompass.swift in Sources */,
 				834A1F8628169650007DE942 /* Compass.swift in Sources */,
@@ -946,9 +946,9 @@
 				834A1F8C281697B9007DE942 /* DerivedLocation.swift in Sources */,
 				834A1F9B2816B7DF007DE942 /* LoxodromeCompassTests.swift in Sources */,
 				8300785D2826E94800971294 /* TargetRestrictorWrapper.swift in Sources */,
-				830078532826BCC600971294 /* TargeDBWrapper.swift in Sources */,
+				830078532826BCC600971294 /* TargeRepoWrapper.swift in Sources */,
 				834A1F8728169650007DE942 /* Compass.swift in Sources */,
-				830078572826C86500971294 /* TargetDBWrapper.swift in Sources */,
+				830078572826C86500971294 /* TargetRepoWrapper.swift in Sources */,
 				8300784428264FAB00971294 /* TestObjFactory.swift in Sources */,
 				834A1F90281697F6007DE942 /* Measurement.swift in Sources */,
 				830078492826AC5500971294 /* Target.swift in Sources */,
