@@ -53,6 +53,14 @@
 		83A01D2D283BE65C00968E05 /* TargetBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D2C283BE65C00968E05 /* TargetBag.swift */; };
 		83A01D2E283BE65C00968E05 /* TargetBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D2C283BE65C00968E05 /* TargetBag.swift */; };
 		83A01D2F283BE65C00968E05 /* TargetBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D2C283BE65C00968E05 /* TargetBag.swift */; };
+		83A01D31283BECED00968E05 /* TargetAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D30283BECED00968E05 /* TargetAssembly.swift */; };
+		83A01D32283BECED00968E05 /* TargetAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D30283BECED00968E05 /* TargetAssembly.swift */; };
+		83A01D33283BECED00968E05 /* TargetAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D30283BECED00968E05 /* TargetAssembly.swift */; };
+		83A01D35283BEF1D00968E05 /* CompassAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D34283BEF1D00968E05 /* CompassAssembly.swift */; };
+		83A01D36283BEF1D00968E05 /* CompassAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D34283BEF1D00968E05 /* CompassAssembly.swift */; };
+		83A01D37283BEF1D00968E05 /* CompassAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D34283BEF1D00968E05 /* CompassAssembly.swift */; };
+		83A01D3B283BFE9C00968E05 /* CompassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D3A283BFE9C00968E05 /* CompassTests.swift */; };
+		83A01D3D283C259C00968E05 /* TargetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D3C283C259C00968E05 /* TargetTests.swift */; };
 		A87272F0B1043C2A0CA5EE7F /* Pods_DersuWatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5F11A6978EEBE37B908702 /* Pods_DersuWatchTests.framework */; };
 		B3C3D66795FB0FA690C33A98 /* Pods_DersuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E759790AC42EB9D1F84356 /* Pods_DersuTests.framework */; };
 		F6A52D433F23BB0655E4AE02 /* Pods_Dersu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C088C0D73DF84AD0165DC28F /* Pods_Dersu.framework */; };
@@ -161,6 +169,10 @@
 		834D4BB1281688450099464B /* DersuWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DersuWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		834D4BB3281688450099464B /* DersuWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DersuWatchTests.swift; sourceTree = "<group>"; };
 		83A01D2C283BE65C00968E05 /* TargetBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetBag.swift; sourceTree = "<group>"; };
+		83A01D30283BECED00968E05 /* TargetAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetAssembly.swift; sourceTree = "<group>"; };
+		83A01D34283BEF1D00968E05 /* CompassAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassAssembly.swift; sourceTree = "<group>"; };
+		83A01D3A283BFE9C00968E05 /* CompassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassTests.swift; sourceTree = "<group>"; };
+		83A01D3C283C259C00968E05 /* TargetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetTests.swift; sourceTree = "<group>"; };
 		8CDCC23BDD445B58D03F53FC /* Pods-DersuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DersuTests.release.xcconfig"; path = "Target Support Files/Pods-DersuTests/Pods-DersuTests.release.xcconfig"; sourceTree = "<group>"; };
 		95755B617E80065F3510349A /* Pods-Dersu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dersu.debug.xcconfig"; path = "Target Support Files/Pods-Dersu/Pods-Dersu.debug.xcconfig"; sourceTree = "<group>"; };
 		97E759790AC42EB9D1F84356 /* Pods_DersuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DersuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -281,6 +293,7 @@
 			isa = PBXGroup;
 			children = (
 				834A1F8428169650007DE942 /* Compass.swift */,
+				83A01D34283BEF1D00968E05 /* CompassAssembly.swift */,
 				8300783F2826394200971294 /* LoxodromeCompass.swift */,
 			);
 			path = Compasses;
@@ -290,6 +303,7 @@
 			isa = PBXGroup;
 			children = (
 				830078472826AC5500971294 /* Target.swift */,
+				83A01D30283BECED00968E05 /* TargetAssembly.swift */,
 				830078502826BCC600971294 /* TargeRepoWrapper.swift */,
 				830078582826E4F000971294 /* RestrictedTarget.swift */,
 			);
@@ -422,7 +436,9 @@
 			isa = PBXGroup;
 			children = (
 				834D4B9B2816874B0099464B /* DersuSharedTests.swift */,
+				83A01D3A283BFE9C00968E05 /* CompassTests.swift */,
 				834A1F9A2816B7DF007DE942 /* LoxodromeCompassTests.swift */,
+				83A01D3C283C259C00968E05 /* TargetTests.swift */,
 				830078542826C28400971294 /* TargetImpl.swift */,
 				830078562826C86500971294 /* TargetRepoWrapper.swift */,
 				8300785C2826E94800971294 /* TargetRestrictorWrapper.swift */,
@@ -514,6 +530,7 @@
 				834D4A342815987A0099464B /* Frameworks */,
 				834D4A352815987A0099464B /* Resources */,
 				834D4A96281598820099464B /* Embed Watch Content */,
+				A370B5A9944B5ECCE7C66D5C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -554,6 +571,7 @@
 				834D4A62281598800099464B /* Sources */,
 				834D4A63281598800099464B /* Frameworks */,
 				834D4A64281598800099464B /* Resources */,
+				F350C7447F17964777F4B14E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -572,6 +590,7 @@
 				834D4B952816874A0099464B /* Sources */,
 				834D4B962816874A0099464B /* Frameworks */,
 				834D4B972816874A0099464B /* Resources */,
+				0C7CBCE6F72E883824239DC9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -725,6 +744,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0C7CBCE6F72E883824239DC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DersuSharedTests/Pods-DersuSharedTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DersuSharedTests/Pods-DersuSharedTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DersuSharedTests/Pods-DersuSharedTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		1AF40A486B784A1CDB94F7DD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -823,6 +859,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A370B5A9944B5ECCE7C66D5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dersu/Pods-Dersu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dersu/Pods-Dersu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dersu/Pods-Dersu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A997A85DC382BC13C751AAE4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -911,6 +964,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F350C7447F17964777F4B14E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DersuWatchExtension/Pods-DersuWatchExtension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DersuWatchExtension/Pods-DersuWatchExtension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DersuWatchExtension/Pods-DersuWatchExtension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -918,6 +988,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A01D35283BEF1D00968E05 /* CompassAssembly.swift in Sources */,
 				83A01D2D283BE65C00968E05 /* TargetBag.swift in Sources */,
 				830078402826394200971294 /* LoxodromeCompass.swift in Sources */,
 				834D4A3D2815987A0099464B /* ContentView.swift in Sources */,
@@ -928,6 +999,7 @@
 				834A1F8E281697F6007DE942 /* Measurement.swift in Sources */,
 				834A1F8A281697B9007DE942 /* DerivedLocation.swift in Sources */,
 				834A1F8528169650007DE942 /* Compass.swift in Sources */,
+				83A01D31283BECED00968E05 /* TargetAssembly.swift in Sources */,
 				830078592826E4F000971294 /* RestrictedTarget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -944,6 +1016,8 @@
 				830078412826394200971294 /* LoxodromeCompass.swift in Sources */,
 				834A1F8628169650007DE942 /* Compass.swift in Sources */,
 				834A1F8B281697B9007DE942 /* DerivedLocation.swift in Sources */,
+				83A01D36283BEF1D00968E05 /* CompassAssembly.swift in Sources */,
+				83A01D32283BECED00968E05 /* TargetAssembly.swift in Sources */,
 				8300784A2826AC6E00971294 /* Target.swift in Sources */,
 				834D4A70281598800099464B /* ComplicationController.swift in Sources */,
 				8300784E2826B2CF00971294 /* SelfUpdated.swift in Sources */,
@@ -961,15 +1035,19 @@
 				834A1F8C281697B9007DE942 /* DerivedLocation.swift in Sources */,
 				834A1F9B2816B7DF007DE942 /* LoxodromeCompassTests.swift in Sources */,
 				8300785D2826E94800971294 /* TargetRestrictorWrapper.swift in Sources */,
+				83A01D33283BECED00968E05 /* TargetAssembly.swift in Sources */,
 				830078532826BCC600971294 /* TargeRepoWrapper.swift in Sources */,
+				83A01D3B283BFE9C00968E05 /* CompassTests.swift in Sources */,
 				834A1F8728169650007DE942 /* Compass.swift in Sources */,
 				830078572826C86500971294 /* TargetRepoWrapper.swift in Sources */,
 				8300784428264FAB00971294 /* TestObjFactory.swift in Sources */,
+				83A01D37283BEF1D00968E05 /* CompassAssembly.swift in Sources */,
 				834A1F90281697F6007DE942 /* Measurement.swift in Sources */,
 				83A01D2F283BE65C00968E05 /* TargetBag.swift in Sources */,
 				830078492826AC5500971294 /* Target.swift in Sources */,
 				834D4B9C2816874B0099464B /* DersuSharedTests.swift in Sources */,
 				8300784F2826B2CF00971294 /* SelfUpdated.swift in Sources */,
+				83A01D3D283C259C00968E05 /* TargetTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

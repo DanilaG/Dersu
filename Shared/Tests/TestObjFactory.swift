@@ -5,7 +5,7 @@
 //  Created by Danila on 07.05.2022.
 //
 
-import Foundation
+import Swinject
 
 class TestObjFactory {
     static var locationVladivostok: DRLocation {
@@ -159,5 +159,17 @@ class TestObjFactory {
         func restrictedTargetChanged(_ target: DRTarget, destination: DRLocation) {
             restrictedTargetChangedDestination?()
         }
+    }
+
+    // MARK: - Assembly
+    class TestLocationManagerAssembly: Assembly {
+
+        func assemble(container: Container) {
+            container.register(DRLocationManager.self) { _ in
+                TestLocationManager()
+            }
+        }
+
+        init() {}
     }
 }
