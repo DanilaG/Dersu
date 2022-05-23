@@ -50,6 +50,9 @@
 		834D4B9C2816874B0099464B /* DersuSharedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4B9B2816874B0099464B /* DersuSharedTests.swift */; };
 		834D4BA7281687CA0099464B /* DersuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4BA6281687CA0099464B /* DersuTests.swift */; };
 		834D4BB4281688450099464B /* DersuWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4BB3281688450099464B /* DersuWatchTests.swift */; };
+		83A01D2D283BE65C00968E05 /* TargetBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D2C283BE65C00968E05 /* TargetBag.swift */; };
+		83A01D2E283BE65C00968E05 /* TargetBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D2C283BE65C00968E05 /* TargetBag.swift */; };
+		83A01D2F283BE65C00968E05 /* TargetBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D2C283BE65C00968E05 /* TargetBag.swift */; };
 		A87272F0B1043C2A0CA5EE7F /* Pods_DersuWatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5F11A6978EEBE37B908702 /* Pods_DersuWatchTests.framework */; };
 		B3C3D66795FB0FA690C33A98 /* Pods_DersuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E759790AC42EB9D1F84356 /* Pods_DersuTests.framework */; };
 		F6A52D433F23BB0655E4AE02 /* Pods_Dersu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C088C0D73DF84AD0165DC28F /* Pods_Dersu.framework */; };
@@ -157,6 +160,7 @@
 		834D4BA6281687CA0099464B /* DersuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DersuTests.swift; sourceTree = "<group>"; };
 		834D4BB1281688450099464B /* DersuWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DersuWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		834D4BB3281688450099464B /* DersuWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DersuWatchTests.swift; sourceTree = "<group>"; };
+		83A01D2C283BE65C00968E05 /* TargetBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetBag.swift; sourceTree = "<group>"; };
 		8CDCC23BDD445B58D03F53FC /* Pods-DersuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DersuTests.release.xcconfig"; path = "Target Support Files/Pods-DersuTests/Pods-DersuTests.release.xcconfig"; sourceTree = "<group>"; };
 		95755B617E80065F3510349A /* Pods-Dersu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dersu.debug.xcconfig"; path = "Target Support Files/Pods-Dersu/Pods-Dersu.debug.xcconfig"; sourceTree = "<group>"; };
 		97E759790AC42EB9D1F84356 /* Pods_DersuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DersuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -409,6 +413,7 @@
 				834A1F8828169732007DE942 /* Structures */,
 				8300783E282638F700971294 /* Compasses */,
 				830078452826ABD200971294 /* Targets */,
+				83A01D2B283BE60600968E05 /* TargetBag */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -486,6 +491,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		83A01D2B283BE60600968E05 /* TargetBag */ = {
+			isa = PBXGroup;
+			children = (
+				83A01D2C283BE65C00968E05 /* TargetBag.swift */,
+			);
+			path = TargetBag;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -905,6 +918,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A01D2D283BE65C00968E05 /* TargetBag.swift in Sources */,
 				830078402826394200971294 /* LoxodromeCompass.swift in Sources */,
 				834D4A3D2815987A0099464B /* ContentView.swift in Sources */,
 				8300784D2826B2CF00971294 /* SelfUpdated.swift in Sources */,
@@ -933,6 +947,7 @@
 				8300784A2826AC6E00971294 /* Target.swift in Sources */,
 				834D4A70281598800099464B /* ComplicationController.swift in Sources */,
 				8300784E2826B2CF00971294 /* SelfUpdated.swift in Sources */,
+				83A01D2E283BE65C00968E05 /* TargetBag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -951,6 +966,7 @@
 				830078572826C86500971294 /* TargetRepoWrapper.swift in Sources */,
 				8300784428264FAB00971294 /* TestObjFactory.swift in Sources */,
 				834A1F90281697F6007DE942 /* Measurement.swift in Sources */,
+				83A01D2F283BE65C00968E05 /* TargetBag.swift in Sources */,
 				830078492826AC5500971294 /* Target.swift in Sources */,
 				834D4B9C2816874B0099464B /* DersuSharedTests.swift in Sources */,
 				8300784F2826B2CF00971294 /* SelfUpdated.swift in Sources */,
