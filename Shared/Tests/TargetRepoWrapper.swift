@@ -42,6 +42,17 @@ class TargetRepoWrapper: XCTestCase {
         wait(for: [expectation], timeout: 0.5)
     }
 
+    func testWhenUpdatedUpdatedExpectedCallDelegate() throws {
+        let delegate = TestObjFactory.TestRepoUpdateDelegate()
+        let target = TestObjFactory.getRepoWrappedTarget(delegate: delegate)
+        let expectation = XCTestExpectation(description: "The delegate didn't called on updated change")
+        delegate.targetUpdatedUpdate = { _, _ in expectation.fulfill() }
+
+        target.updated = Date()
+
+        wait(for: [expectation], timeout: 0.5)
+    }
+
     func testWhenRepoNameUpdatedExpectedInitialDelegateNameUpdated() throws {
         let newName = "newName"
         let initTarget = TestObjFactory.getTarget(name: "oldName")
@@ -78,5 +89,16 @@ class TargetRepoWrapper: XCTestCase {
             newDestination.coordinate.latitude,
             "RepoUpdatedDelegate doesn't update destination"
         )
+    }
+
+    func testWhenRepoUpdatedUpdatedExpectedInitialUpdatedUpdated() throws {
+        let newDate = Date(timeIntervalSince1970: 10)
+        let initTarget = TestObjFactory.getTarget(updated: Date(timeIntervalSince1970: 0))
+        let targetDelegate: DRTargetRepoUpdatedDelegate =
+            TestObjFactory.getRepoWrappedTarget(initTarget: initTarget)
+
+        targetDelegate.targetUpdated(updated: newDate)
+
+        XCTAssertEqual(initTarget.updated, newDate, "RepoUpdatedDelegate doesn't update updated")
     }
 }

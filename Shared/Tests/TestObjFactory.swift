@@ -199,6 +199,11 @@ class TestObjFactory {
         func targetUpdate(_ target: DRTarget, destination: DRLocation) {
             targetDestinationUpdate?(target, destination)
         }
+
+        var targetUpdatedUpdate: ((DRTarget, Date) -> Void)?
+        func targetUpdate(_ target: DRTarget, updated: Date) {
+            targetUpdatedUpdate?(target, updated)
+        }
     }
 
     // MARK: - Assembly

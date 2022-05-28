@@ -56,7 +56,10 @@ class DRTargetRestrictorWrapper: DRRestrictedTarget {
 
     var id: UUID { target.id }
 
-    var updated: Date { target.updated }
+    var updated: Date {
+        get { target.updated }
+        set { target.updated = newValue }
+    }
 
     var destination: DRLocation {
         get { target.destination }

@@ -20,7 +20,7 @@ protocol DRTarget: DRCompass {
     var id: UUID { get }
 
     /// The last date of destination update
-    var updated: Date { get }
+    var updated: Date { get set }
 }
 
 class DRTargetImpl: DRTarget {
@@ -33,11 +33,8 @@ class DRTargetImpl: DRTarget {
     var updated: Date
 
     var destination: DRLocation {
-        get { compass.destination}
-        set {
-            compass.destination = newValue
-            updated = Date()
-        }
+        get { compass.destination }
+        set { compass.destination = newValue }
     }
 
     var location: DRLocation? { compass.location }

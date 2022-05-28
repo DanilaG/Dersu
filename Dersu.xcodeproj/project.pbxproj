@@ -21,7 +21,6 @@
 		830078512826BCC600971294 /* TargeRepoWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078502826BCC600971294 /* TargeRepoWrapper.swift */; };
 		830078522826BCC600971294 /* TargeRepoWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078502826BCC600971294 /* TargeRepoWrapper.swift */; };
 		830078532826BCC600971294 /* TargeRepoWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078502826BCC600971294 /* TargeRepoWrapper.swift */; };
-		830078552826C28400971294 /* TargetImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078542826C28400971294 /* TargetImpl.swift */; };
 		830078572826C86500971294 /* TargetRepoWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078562826C86500971294 /* TargetRepoWrapper.swift */; };
 		830078592826E4F000971294 /* RestrictedTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078582826E4F000971294 /* RestrictedTarget.swift */; };
 		8300785A2826E4F000971294 /* RestrictedTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830078582826E4F000971294 /* RestrictedTarget.swift */; };
@@ -151,7 +150,6 @@
 		830078472826AC5500971294 /* Target.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
 		8300784C2826B2CF00971294 /* SelfUpdated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfUpdated.swift; sourceTree = "<group>"; };
 		830078502826BCC600971294 /* TargeRepoWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargeRepoWrapper.swift; sourceTree = "<group>"; };
-		830078542826C28400971294 /* TargetImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetImpl.swift; sourceTree = "<group>"; };
 		830078562826C86500971294 /* TargetRepoWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetRepoWrapper.swift; sourceTree = "<group>"; };
 		830078582826E4F000971294 /* RestrictedTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictedTarget.swift; sourceTree = "<group>"; };
 		8300785C2826E94800971294 /* TargetRestrictorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetRestrictorWrapper.swift; sourceTree = "<group>"; };
@@ -453,7 +451,6 @@
 				83A01D3A283BFE9C00968E05 /* CompassTests.swift */,
 				834A1F9A2816B7DF007DE942 /* LoxodromeCompassTests.swift */,
 				83A01D3C283C259C00968E05 /* TargetTests.swift */,
-				830078542826C28400971294 /* TargetImpl.swift */,
 				830078562826C86500971294 /* TargetRepoWrapper.swift */,
 				8300785C2826E94800971294 /* TargetRestrictorWrapper.swift */,
 				8377CCB1284202890082E176 /* TargetBagTests.swift */,
@@ -1054,7 +1051,6 @@
 			files = (
 				8300785B2826E4F000971294 /* RestrictedTarget.swift in Sources */,
 				8377CCAC2841FBD70082E176 /* TargetBagRepoWrapperTest.swift in Sources */,
-				830078552826C28400971294 /* TargetImpl.swift in Sources */,
 				830078422826394200971294 /* LoxodromeCompass.swift in Sources */,
 				834A1F8C281697B9007DE942 /* DerivedLocation.swift in Sources */,
 				834A1F9B2816B7DF007DE942 /* LoxodromeCompassTests.swift in Sources */,

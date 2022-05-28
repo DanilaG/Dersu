@@ -27,7 +27,13 @@ class DRTargetRepoWrapper: DRTarget {
 
     var id: UUID { target.id }
 
-    var updated: Date { target.updated }
+    var updated: Date {
+        get { target.updated }
+        set {
+            target.updated = newValue
+            delegate?.targetUpdate(self, updated: newValue)
+        }
+    }
 
     var destination: DRLocation {
         get { target.destination }
@@ -75,6 +81,9 @@ protocol DRTargetRepoUpdateDelegate: AnyObject {
 
     /// Update destination of the target in repository
     func targetUpdate(_ target: DRTarget, destination: DRLocation)
+
+    /// Update updated of the target in repository
+    func targetUpdate(_ target: DRTarget, updated: Date)
 }
 
 /// The delegate for updating target data from repository
@@ -88,6 +97,9 @@ protocol DRTargetRepoUpdatedDelegate: AnyObject {
 
     /// The function called on external target destination update
     func targetUpdated(destination: DRLocation)
+
+    /// The function called on external target updated date update
+    func targetUpdated(updated: Date)
 }
 
 extension DRTargetRepoWrapper: DRTargetRepoUpdatedDelegate {
@@ -102,5 +114,9 @@ extension DRTargetRepoWrapper: DRTargetRepoUpdatedDelegate {
 
     func targetUpdated(destination: DRLocation) {
         target.destination = destination
+    }
+
+    func targetUpdated(updated: Date) {
+        target.updated = updated
     }
 }
