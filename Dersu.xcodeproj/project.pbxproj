@@ -50,6 +50,14 @@
 		834D4B9C2816874B0099464B /* DersuSharedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4B9B2816874B0099464B /* DersuSharedTests.swift */; };
 		834D4BA7281687CA0099464B /* DersuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4BA6281687CA0099464B /* DersuTests.swift */; };
 		834D4BB4281688450099464B /* DersuWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4BB3281688450099464B /* DersuWatchTests.swift */; };
+		8377CCA4283EC33B0082E176 /* TargetBagRepoWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377CCA3283EC33A0082E176 /* TargetBagRepoWrapper.swift */; };
+		8377CCA5283EC33B0082E176 /* TargetBagRepoWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377CCA3283EC33A0082E176 /* TargetBagRepoWrapper.swift */; };
+		8377CCA6283EC33B0082E176 /* TargetBagRepoWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377CCA3283EC33A0082E176 /* TargetBagRepoWrapper.swift */; };
+		8377CCAC2841FBD70082E176 /* TargetBagRepoWrapperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377CCAB2841FBD70082E176 /* TargetBagRepoWrapperTest.swift */; };
+		8377CCAE284201590082E176 /* TargetBagAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377CCAD284201590082E176 /* TargetBagAssembly.swift */; };
+		8377CCAF284201590082E176 /* TargetBagAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377CCAD284201590082E176 /* TargetBagAssembly.swift */; };
+		8377CCB0284201590082E176 /* TargetBagAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377CCAD284201590082E176 /* TargetBagAssembly.swift */; };
+		8377CCB2284202890082E176 /* TargetBagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377CCB1284202890082E176 /* TargetBagTests.swift */; };
 		83A01D2D283BE65C00968E05 /* TargetBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D2C283BE65C00968E05 /* TargetBag.swift */; };
 		83A01D2E283BE65C00968E05 /* TargetBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D2C283BE65C00968E05 /* TargetBag.swift */; };
 		83A01D2F283BE65C00968E05 /* TargetBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D2C283BE65C00968E05 /* TargetBag.swift */; };
@@ -61,6 +69,7 @@
 		83A01D37283BEF1D00968E05 /* CompassAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D34283BEF1D00968E05 /* CompassAssembly.swift */; };
 		83A01D3B283BFE9C00968E05 /* CompassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D3A283BFE9C00968E05 /* CompassTests.swift */; };
 		83A01D3D283C259C00968E05 /* TargetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D3C283C259C00968E05 /* TargetTests.swift */; };
+		83A01D3F283C2C5200968E05 /* TargetBagImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A01D3E283C2C5200968E05 /* TargetBagImpl.swift */; };
 		A87272F0B1043C2A0CA5EE7F /* Pods_DersuWatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5F11A6978EEBE37B908702 /* Pods_DersuWatchTests.framework */; };
 		B3C3D66795FB0FA690C33A98 /* Pods_DersuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E759790AC42EB9D1F84356 /* Pods_DersuTests.framework */; };
 		F6A52D433F23BB0655E4AE02 /* Pods_Dersu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C088C0D73DF84AD0165DC28F /* Pods_Dersu.framework */; };
@@ -168,11 +177,16 @@
 		834D4BA6281687CA0099464B /* DersuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DersuTests.swift; sourceTree = "<group>"; };
 		834D4BB1281688450099464B /* DersuWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DersuWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		834D4BB3281688450099464B /* DersuWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DersuWatchTests.swift; sourceTree = "<group>"; };
+		8377CCA3283EC33A0082E176 /* TargetBagRepoWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetBagRepoWrapper.swift; sourceTree = "<group>"; };
+		8377CCAB2841FBD70082E176 /* TargetBagRepoWrapperTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetBagRepoWrapperTest.swift; sourceTree = "<group>"; };
+		8377CCAD284201590082E176 /* TargetBagAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetBagAssembly.swift; sourceTree = "<group>"; };
+		8377CCB1284202890082E176 /* TargetBagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetBagTests.swift; sourceTree = "<group>"; };
 		83A01D2C283BE65C00968E05 /* TargetBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetBag.swift; sourceTree = "<group>"; };
 		83A01D30283BECED00968E05 /* TargetAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetAssembly.swift; sourceTree = "<group>"; };
 		83A01D34283BEF1D00968E05 /* CompassAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassAssembly.swift; sourceTree = "<group>"; };
 		83A01D3A283BFE9C00968E05 /* CompassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassTests.swift; sourceTree = "<group>"; };
 		83A01D3C283C259C00968E05 /* TargetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetTests.swift; sourceTree = "<group>"; };
+		83A01D3E283C2C5200968E05 /* TargetBagImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetBagImpl.swift; sourceTree = "<group>"; };
 		8CDCC23BDD445B58D03F53FC /* Pods-DersuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DersuTests.release.xcconfig"; path = "Target Support Files/Pods-DersuTests/Pods-DersuTests.release.xcconfig"; sourceTree = "<group>"; };
 		95755B617E80065F3510349A /* Pods-Dersu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dersu.debug.xcconfig"; path = "Target Support Files/Pods-Dersu/Pods-Dersu.debug.xcconfig"; sourceTree = "<group>"; };
 		97E759790AC42EB9D1F84356 /* Pods_DersuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DersuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -442,6 +456,9 @@
 				830078542826C28400971294 /* TargetImpl.swift */,
 				830078562826C86500971294 /* TargetRepoWrapper.swift */,
 				8300785C2826E94800971294 /* TargetRestrictorWrapper.swift */,
+				8377CCB1284202890082E176 /* TargetBagTests.swift */,
+				83A01D3E283C2C5200968E05 /* TargetBagImpl.swift */,
+				8377CCAB2841FBD70082E176 /* TargetBagRepoWrapperTest.swift */,
 				8300784328264FAB00971294 /* TestObjFactory.swift */,
 			);
 			path = Tests;
@@ -513,6 +530,8 @@
 			isa = PBXGroup;
 			children = (
 				83A01D2C283BE65C00968E05 /* TargetBag.swift */,
+				8377CCAD284201590082E176 /* TargetBagAssembly.swift */,
+				8377CCA3283EC33A0082E176 /* TargetBagRepoWrapper.swift */,
 			);
 			path = TargetBag;
 			sourceTree = "<group>";
@@ -992,6 +1011,7 @@
 				83A01D2D283BE65C00968E05 /* TargetBag.swift in Sources */,
 				830078402826394200971294 /* LoxodromeCompass.swift in Sources */,
 				834D4A3D2815987A0099464B /* ContentView.swift in Sources */,
+				8377CCAE284201590082E176 /* TargetBagAssembly.swift in Sources */,
 				8300784D2826B2CF00971294 /* SelfUpdated.swift in Sources */,
 				830078482826AC5500971294 /* Target.swift in Sources */,
 				834D4A3B2815987A0099464B /* DersuApp.swift in Sources */,
@@ -999,6 +1019,7 @@
 				834A1F8E281697F6007DE942 /* Measurement.swift in Sources */,
 				834A1F8A281697B9007DE942 /* DerivedLocation.swift in Sources */,
 				834A1F8528169650007DE942 /* Compass.swift in Sources */,
+				8377CCA4283EC33B0082E176 /* TargetBagRepoWrapper.swift in Sources */,
 				83A01D31283BECED00968E05 /* TargetAssembly.swift in Sources */,
 				830078592826E4F000971294 /* RestrictedTarget.swift in Sources */,
 			);
@@ -1011,9 +1032,11 @@
 				834D4A6C281598800099464B /* ContentView.swift in Sources */,
 				834D4A6E281598800099464B /* DersuApp.swift in Sources */,
 				834A1F8F281697F6007DE942 /* Measurement.swift in Sources */,
+				8377CCAF284201590082E176 /* TargetBagAssembly.swift in Sources */,
 				830078522826BCC600971294 /* TargeRepoWrapper.swift in Sources */,
 				8300785A2826E4F000971294 /* RestrictedTarget.swift in Sources */,
 				830078412826394200971294 /* LoxodromeCompass.swift in Sources */,
+				8377CCA5283EC33B0082E176 /* TargetBagRepoWrapper.swift in Sources */,
 				834A1F8628169650007DE942 /* Compass.swift in Sources */,
 				834A1F8B281697B9007DE942 /* DerivedLocation.swift in Sources */,
 				83A01D36283BEF1D00968E05 /* CompassAssembly.swift in Sources */,
@@ -1030,6 +1053,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8300785B2826E4F000971294 /* RestrictedTarget.swift in Sources */,
+				8377CCAC2841FBD70082E176 /* TargetBagRepoWrapperTest.swift in Sources */,
 				830078552826C28400971294 /* TargetImpl.swift in Sources */,
 				830078422826394200971294 /* LoxodromeCompass.swift in Sources */,
 				834A1F8C281697B9007DE942 /* DerivedLocation.swift in Sources */,
@@ -1038,14 +1062,18 @@
 				83A01D33283BECED00968E05 /* TargetAssembly.swift in Sources */,
 				830078532826BCC600971294 /* TargeRepoWrapper.swift in Sources */,
 				83A01D3B283BFE9C00968E05 /* CompassTests.swift in Sources */,
+				83A01D3F283C2C5200968E05 /* TargetBagImpl.swift in Sources */,
 				834A1F8728169650007DE942 /* Compass.swift in Sources */,
 				830078572826C86500971294 /* TargetRepoWrapper.swift in Sources */,
 				8300784428264FAB00971294 /* TestObjFactory.swift in Sources */,
 				83A01D37283BEF1D00968E05 /* CompassAssembly.swift in Sources */,
+				8377CCB0284201590082E176 /* TargetBagAssembly.swift in Sources */,
 				834A1F90281697F6007DE942 /* Measurement.swift in Sources */,
 				83A01D2F283BE65C00968E05 /* TargetBag.swift in Sources */,
 				830078492826AC5500971294 /* Target.swift in Sources */,
+				8377CCB2284202890082E176 /* TargetBagTests.swift in Sources */,
 				834D4B9C2816874B0099464B /* DersuSharedTests.swift in Sources */,
+				8377CCA6283EC33B0082E176 /* TargetBagRepoWrapper.swift in Sources */,
 				8300784F2826B2CF00971294 /* SelfUpdated.swift in Sources */,
 				83A01D3D283C259C00968E05 /* TargetTests.swift in Sources */,
 			);

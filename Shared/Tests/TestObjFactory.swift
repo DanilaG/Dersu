@@ -16,6 +16,12 @@ class TestObjFactory {
         TestObjFactory.getLocation(latitude: 37.809767, longitude: -122.477461, altitude: 20.1)
     }
 
+    static var assembler = Assembler([
+        DRTargetAssembly(),
+        DRCompassAssembly(),
+        TestObjFactory.TestLocationManagerAssembly()
+    ])
+
     static func getLocation(
         latitude: DRLatitude = 0,
         longitude: DRLongitude = 0,
@@ -83,7 +89,7 @@ class TestObjFactory {
 
     static func getRepoWrappedTarget(
         initTarget: DRTarget = TestObjFactory.getTarget(),
-        delegate: DRTargetRepoUpdateDelegate = TestTargetRepoUpdateDelegate()
+        delegate: DRTargetRepoUpdateDelegate = TestRepoUpdateDelegate()
     ) -> DRTargetRepoWrapper {
         DRTargetRepoWrapper(for: initTarget, delegate: delegate)
     }
@@ -93,6 +99,19 @@ class TestObjFactory {
         delegate: DRTargetRestrictorDelegate = TestTargetRestrictorDelegate()
     ) -> DRRestrictedTarget {
         DRTargetRestrictorWrapper(for: initTarget, delegate: delegate)
+    }
+
+    static func getTargetBag(
+        assembler: Assembler = assembler
+    ) -> DRTargetBag {
+        DRTargetBagImpl(assembler)
+    }
+
+    static func getTargetBagRepoWrapper(
+        initialTargetBag: DRTargetBag = TestObjFactory.getTargetBag(),
+        delegate: DRRepoUpdateDelegate = TestRepoUpdateDelegate()
+    ) -> DRTargetBagRepoWrapper {
+        DRTargetBagRepoWrapper(for: initialTargetBag, delegate: delegate)
     }
 
     class TestLocationManager: DRLocationManager {
@@ -107,24 +126,6 @@ class TestObjFactory {
 
         var magneticHeadingPublisher: Published<DRMeasurement<DRDirection>?>.Publisher {
             $magneticHeading
-        }
-    }
-
-    class TestTargetRepoUpdateDelegate: DRTargetRepoUpdateDelegate {
-
-        var targetNameUpdate: (() -> Void)?
-        func targetUpdate(_ target: DRTarget, name: String) {
-            targetNameUpdate?()
-        }
-
-        var targetIconUpdate: (() -> Void)?
-        func targetUpdate(_ target: DRTarget, icon: String) {
-            targetIconUpdate?()
-        }
-
-        var targetDestinationUpdate: (() -> Void)?
-        func targetUpdate(_ target: DRTarget, destination: DRLocation) {
-            targetDestinationUpdate?()
         }
     }
 
@@ -158,6 +159,45 @@ class TestObjFactory {
         var restrictedTargetChangedDestination: (() -> Void)?
         func restrictedTargetChanged(_ target: DRTarget, destination: DRLocation) {
             restrictedTargetChangedDestination?()
+        }
+    }
+
+    class TestRepoUpdateDelegate: DRRepoUpdateDelegate {
+        var currentTargetSet: ((DRTarget?) -> Void)?
+        var currentTarget: DRTarget? {
+            didSet {
+                currentTargetSet?(currentTarget)
+            }
+        }
+
+        var getTargetsHandler: (() -> [DRTarget])?
+        func getTargets() -> [DRTarget] {
+            getTargetsHandler?() ?? []
+        }
+
+        var addTargetHandler: ((DRTarget, DRTargetRepoUpdatedDelegate?) -> Void)?
+        func add(target: DRTarget, with delegate: DRTargetRepoUpdatedDelegate? = nil) {
+            addTargetHandler?(target, delegate)
+        }
+
+        var removeTargetHandler: ((DRTarget) -> Void)?
+        func remove(target: DRTarget) {
+            removeTargetHandler?(target)
+        }
+
+        var targetNameUpdateHandler: ((DRTarget, String) -> Void)?
+        func targetUpdate(_ target: DRTarget, name: String) {
+            targetNameUpdateHandler?(target, name)
+        }
+
+        var targetIconUpdateHandler: ((DRTarget, String) -> Void)?
+        func targetUpdate(_ target: DRTarget, icon: String) {
+            targetIconUpdateHandler?(target, icon)
+        }
+
+        var targetDestinationUpdate: ((DRTarget, DRLocation) -> Void)?
+        func targetUpdate(_ target: DRTarget, destination: DRLocation) {
+            targetDestinationUpdate?(target, destination)
         }
     }
 

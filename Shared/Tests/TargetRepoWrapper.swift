@@ -10,10 +10,10 @@ import XCTest
 class TargetRepoWrapper: XCTestCase {
 
     func testWhenNameUpdatedExpectedCallDelegate() throws {
-        let delegate = TestObjFactory.TestTargetRepoUpdateDelegate()
+        let delegate = TestObjFactory.TestRepoUpdateDelegate()
         let target = TestObjFactory.getRepoWrappedTarget(delegate: delegate)
         let expectation = XCTestExpectation(description: "The delegate didn't called on name change")
-        delegate.targetNameUpdate = { expectation.fulfill() }
+        delegate.targetNameUpdateHandler = { _, _ in expectation.fulfill() }
 
         target.name = "New name"
 
@@ -21,10 +21,10 @@ class TargetRepoWrapper: XCTestCase {
     }
 
     func testWhenIconUpdatedExpectedCallDelegate() throws {
-        let delegate = TestObjFactory.TestTargetRepoUpdateDelegate()
+        let delegate = TestObjFactory.TestRepoUpdateDelegate()
         let target = TestObjFactory.getRepoWrappedTarget(delegate: delegate)
         let expectation = XCTestExpectation(description: "The delegate didn't called on icon change")
-        delegate.targetIconUpdate = { expectation.fulfill() }
+        delegate.targetIconUpdateHandler = { _, _ in expectation.fulfill() }
 
         target.icon = "New icon"
 
@@ -32,10 +32,10 @@ class TargetRepoWrapper: XCTestCase {
     }
 
     func testWhenDestinationUpdatedExpectedCallDelegate() throws {
-        let delegate = TestObjFactory.TestTargetRepoUpdateDelegate()
+        let delegate = TestObjFactory.TestRepoUpdateDelegate()
         let target = TestObjFactory.getRepoWrappedTarget(delegate: delegate)
         let expectation = XCTestExpectation(description: "The delegate didn't called on destination change")
-        delegate.targetDestinationUpdate = { expectation.fulfill() }
+        delegate.targetDestinationUpdate = { _, _ in expectation.fulfill() }
 
         target.destination = TestObjFactory.locationVladivostok
 
