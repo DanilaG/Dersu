@@ -83,8 +83,24 @@ class TestObjFactory {
         updated: Date = Date(),
         compass: DRCompass = TestObjFactory.getLoxodromeCompass()
     ) -> DRTarget {
+        DRTargetImpl(name: name, icon: icon, id: id, updated: updated, compass: compass)
+    }
 
-        return DRTargetImpl(name: name, icon: icon, id: id, updated: updated, compass: compass)
+    static func getTarget(
+        name: String = "Test",
+        icon: String = "Test",
+        id: UUID = UUID(),
+        updated: Date = Date(),
+        destination: DRLocation
+    ) -> DRTarget {
+        let compass = TestObjFactory.getLoxodromeCompass(
+            latitude: destination.coordinate.latitude,
+            longitude: destination.coordinate.longitude,
+            distanceError: destination.coordinate.distanceError,
+            altitude: destination.altitude.value,
+            altitudeError: destination.altitude.error
+        )
+        return TestObjFactory.getTarget(name: name, icon: icon, id: id, updated: updated, compass: compass)
     }
 
     static func getRepoWrappedTarget(
@@ -112,6 +128,38 @@ class TestObjFactory {
         delegate: DRRepoUpdateDelegate = TestRepoUpdateDelegate()
     ) -> DRTargetBagRepoWrapper {
         DRTargetBagRepoWrapper(for: initialTargetBag, delegate: delegate)
+    }
+
+    static func getLocationData(
+        latitude: Double = 0.0,
+        longitude: Double = 0.0,
+        distanceError: Double = 0.0,
+        altitude: Double = 0.0,
+        altitudeError: Double = 0.0
+    ) -> DRLocationData {
+        DRLocationData(
+            latitude: latitude,
+            longitude: longitude,
+            distanceError: distanceError,
+            altitude: altitude,
+            altitudeError: altitudeError
+        )
+    }
+
+    static func getTargetData(
+        name: String = "Test",
+        icon: String = "Test",
+        id: UUID = UUID(),
+        updated: Date = Date(),
+        destination: DRLocationData = TestObjFactory.getLocationData()
+    ) -> DRTargetData {
+        DRTargetData(
+            name: name,
+            icon: icon,
+            id: id,
+            updated: updated,
+            destination: destination
+        )
     }
 
     class TestLocationManager: DRLocationManager {
