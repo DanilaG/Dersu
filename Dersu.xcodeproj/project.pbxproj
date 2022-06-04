@@ -77,6 +77,13 @@
 		83B4A742284A907900C1247C /* TargetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B4A740284A907900C1247C /* TargetData.swift */; };
 		83B4A743284A907900C1247C /* TargetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B4A740284A907900C1247C /* TargetData.swift */; };
 		83B4A745284A9CAF00C1247C /* TargetDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B4A744284A9CAF00C1247C /* TargetDataTests.swift */; };
+		83B4A77D284BDC9B00C1247C /* TargetDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B4A77C284BDC9B00C1247C /* TargetDB.swift */; };
+		83B4A77E284BDC9B00C1247C /* TargetDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B4A77C284BDC9B00C1247C /* TargetDB.swift */; };
+		83B4A77F284BDC9B00C1247C /* TargetDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B4A77C284BDC9B00C1247C /* TargetDB.swift */; };
+		83B4A781284BDEC600C1247C /* TargetUserDefaultsDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B4A780284BDEC600C1247C /* TargetUserDefaultsDB.swift */; };
+		83B4A782284BDEC600C1247C /* TargetUserDefaultsDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B4A780284BDEC600C1247C /* TargetUserDefaultsDB.swift */; };
+		83B4A783284BDEC600C1247C /* TargetUserDefaultsDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B4A780284BDEC600C1247C /* TargetUserDefaultsDB.swift */; };
+		83B4A785284BE61F00C1247C /* TargetUserDefaultsDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B4A784284BE61F00C1247C /* TargetUserDefaultsDBTests.swift */; };
 		A87272F0B1043C2A0CA5EE7F /* Pods_DersuWatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5F11A6978EEBE37B908702 /* Pods_DersuWatchTests.framework */; };
 		B3C3D66795FB0FA690C33A98 /* Pods_DersuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E759790AC42EB9D1F84356 /* Pods_DersuTests.framework */; };
 		F6A52D433F23BB0655E4AE02 /* Pods_Dersu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C088C0D73DF84AD0165DC28F /* Pods_Dersu.framework */; };
@@ -197,6 +204,9 @@
 		83B4A73E284A8B9100C1247C /* LocationDateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDateTests.swift; sourceTree = "<group>"; };
 		83B4A740284A907900C1247C /* TargetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetData.swift; sourceTree = "<group>"; };
 		83B4A744284A9CAF00C1247C /* TargetDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetDataTests.swift; sourceTree = "<group>"; };
+		83B4A77C284BDC9B00C1247C /* TargetDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetDB.swift; sourceTree = "<group>"; };
+		83B4A780284BDEC600C1247C /* TargetUserDefaultsDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetUserDefaultsDB.swift; sourceTree = "<group>"; };
+		83B4A784284BE61F00C1247C /* TargetUserDefaultsDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetUserDefaultsDBTests.swift; sourceTree = "<group>"; };
 		8CDCC23BDD445B58D03F53FC /* Pods-DersuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DersuTests.release.xcconfig"; path = "Target Support Files/Pods-DersuTests/Pods-DersuTests.release.xcconfig"; sourceTree = "<group>"; };
 		95755B617E80065F3510349A /* Pods-Dersu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dersu.debug.xcconfig"; path = "Target Support Files/Pods-Dersu/Pods-Dersu.debug.xcconfig"; sourceTree = "<group>"; };
 		97E759790AC42EB9D1F84356 /* Pods_DersuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DersuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -552,6 +562,8 @@
 			children = (
 				83B4A739284A88A200C1247C /* LocationData.swift */,
 				83B4A740284A907900C1247C /* TargetData.swift */,
+				83B4A77C284BDC9B00C1247C /* TargetDB.swift */,
+				83B4A780284BDEC600C1247C /* TargetUserDefaultsDB.swift */,
 			);
 			path = Repo;
 			sourceTree = "<group>";
@@ -561,6 +573,7 @@
 			children = (
 				83B4A73E284A8B9100C1247C /* LocationDateTests.swift */,
 				83B4A744284A9CAF00C1247C /* TargetDataTests.swift */,
+				83B4A784284BE61F00C1247C /* TargetUserDefaultsDBTests.swift */,
 			);
 			path = Repo;
 			sourceTree = "<group>";
@@ -1052,6 +1065,8 @@
 				83B4A741284A907900C1247C /* TargetData.swift in Sources */,
 				8377CCA4283EC33B0082E176 /* TargetBagRepoWrapper.swift in Sources */,
 				83A01D31283BECED00968E05 /* TargetAssembly.swift in Sources */,
+				83B4A781284BDEC600C1247C /* TargetUserDefaultsDB.swift in Sources */,
+				83B4A77D284BDC9B00C1247C /* TargetDB.swift in Sources */,
 				830078592826E4F000971294 /* RestrictedTarget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1069,10 +1084,12 @@
 				830078522826BCC600971294 /* TargeRepoWrapper.swift in Sources */,
 				8300785A2826E4F000971294 /* RestrictedTarget.swift in Sources */,
 				830078412826394200971294 /* LoxodromeCompass.swift in Sources */,
+				83B4A782284BDEC600C1247C /* TargetUserDefaultsDB.swift in Sources */,
 				8377CCA5283EC33B0082E176 /* TargetBagRepoWrapper.swift in Sources */,
 				834A1F8628169650007DE942 /* Compass.swift in Sources */,
 				834A1F8B281697B9007DE942 /* DerivedLocation.swift in Sources */,
 				83A01D36283BEF1D00968E05 /* CompassAssembly.swift in Sources */,
+				83B4A77E284BDC9B00C1247C /* TargetDB.swift in Sources */,
 				83A01D32283BECED00968E05 /* TargetAssembly.swift in Sources */,
 				8300784A2826AC6E00971294 /* Target.swift in Sources */,
 				834D4A70281598800099464B /* ComplicationController.swift in Sources */,
@@ -1090,6 +1107,7 @@
 				8377CCAC2841FBD70082E176 /* TargetBagRepoWrapperTest.swift in Sources */,
 				830078422826394200971294 /* LoxodromeCompass.swift in Sources */,
 				834A1F8C281697B9007DE942 /* DerivedLocation.swift in Sources */,
+				83B4A783284BDEC600C1247C /* TargetUserDefaultsDB.swift in Sources */,
 				834A1F9B2816B7DF007DE942 /* LoxodromeCompassTests.swift in Sources */,
 				8300785D2826E94800971294 /* TargetRestrictorWrapper.swift in Sources */,
 				83A01D33283BECED00968E05 /* TargetAssembly.swift in Sources */,
@@ -1099,10 +1117,12 @@
 				834A1F8728169650007DE942 /* Compass.swift in Sources */,
 				830078572826C86500971294 /* TargetRepoWrapper.swift in Sources */,
 				8300784428264FAB00971294 /* TestObjFactory.swift in Sources */,
+				83B4A785284BE61F00C1247C /* TargetUserDefaultsDBTests.swift in Sources */,
 				83A01D37283BEF1D00968E05 /* CompassAssembly.swift in Sources */,
 				8377CCB0284201590082E176 /* TargetBagAssembly.swift in Sources */,
 				834A1F90281697F6007DE942 /* Measurement.swift in Sources */,
 				83A01D2F283BE65C00968E05 /* TargetBag.swift in Sources */,
+				83B4A77F284BDC9B00C1247C /* TargetDB.swift in Sources */,
 				830078492826AC5500971294 /* Target.swift in Sources */,
 				83B4A73F284A8B9100C1247C /* LocationDateTests.swift in Sources */,
 				8377CCB2284202890082E176 /* TargetBagTests.swift in Sources */,
