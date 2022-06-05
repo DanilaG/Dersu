@@ -223,9 +223,9 @@ class TestObjFactory {
             getTargetsHandler?() ?? []
         }
 
-        var addTargetHandler: ((DRTarget, DRTargetRepoUpdatedDelegate?) -> Void)?
-        func add(target: DRTarget, with delegate: DRTargetRepoUpdatedDelegate? = nil) {
-            addTargetHandler?(target, delegate)
+        var addTargetHandler: ((DRTarget) -> Void)?
+        func add(target: DRTarget) {
+            addTargetHandler?(target)
         }
 
         var removeTargetHandler: ((DRTarget) -> Void)?

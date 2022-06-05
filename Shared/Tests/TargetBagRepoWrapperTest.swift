@@ -75,7 +75,7 @@ class TargetBagRepoWrapperTest: XCTestCase {
         let delegate = TestObjFactory.TestRepoUpdateDelegate()
         let bag = TestObjFactory.getTargetBagRepoWrapper(delegate: delegate)
         var isCalled = false
-        delegate.addTargetHandler = { _, _ in isCalled = true }
+        delegate.addTargetHandler = { _ in isCalled = true }
 
         bag.add(target: target)
 
@@ -86,7 +86,7 @@ class TargetBagRepoWrapperTest: XCTestCase {
         let delegate = TestObjFactory.TestRepoUpdateDelegate()
         let bag = TestObjFactory.getTargetBagRepoWrapper(delegate: delegate)
         var isCalled = false
-        delegate.addTargetHandler = { _, _ in isCalled = true }
+        delegate.addTargetHandler = { _ in isCalled = true }
 
         _ = bag.createTargetWith(
             name: "test",
@@ -111,15 +111,6 @@ class TargetBagRepoWrapperTest: XCTestCase {
     }
 
     // MARK: - RepoUpdatedDelegate
-    func testWhenExternalTargetAddedExpectedAddItToTargetBag() throws {
-        let target = TestObjFactory.getTarget()
-        let bag = TestObjFactory.getTargetBagRepoWrapper()
-
-        bag.added(target: target)
-
-        XCTAssertEqual(bag.targets.count, 1, "Target wasn't added")
-    }
-
     func testWhenExternalTargetRemovedExpectedRemoveItToTargetBag() throws {
         let target = TestObjFactory.getTarget()
         let bag = TestObjFactory.getTargetBagRepoWrapper()
@@ -139,5 +130,62 @@ class TargetBagRepoWrapperTest: XCTestCase {
         bag.updated(currentTarget: target)
 
         XCTAssertEqual(bag.currentTarget?.id, target.id, "Current target wasn't changed")
+    }
+
+    func testWhenExternalTargetAddedExpectedAddItToTargetBag() throws {
+        let target = TestObjFactory.getTarget()
+        let bag = TestObjFactory.getTargetBagRepoWrapper()
+
+        bag.added(target: target)
+
+        XCTAssertEqual(bag.targets.count, 1, "Target wasn't added")
+    }
+
+    func testWhenExternalTargetNameChangeExpectedChangeIt() throws {
+        let newName = "newName"
+        let target = TestObjFactory.getRepoWrappedTarget()
+        let bag = TestObjFactory.getTargetBagRepoWrapper()
+        bag.added(target: target)
+
+        bag.updated(target: target, name: newName)
+
+        XCTAssertEqual(bag.targets.first?.name, newName, "Target name wasn't updated")
+    }
+
+    func testWhenExternalTargetIconChangeExpectedChangeIt() throws {
+        let newIcon = "newIcon"
+        let target = TestObjFactory.getRepoWrappedTarget()
+        let bag = TestObjFactory.getTargetBagRepoWrapper()
+        bag.added(target: target)
+
+        bag.updated(target: target, icon: newIcon)
+
+        XCTAssertEqual(bag.targets.first?.icon, newIcon, "Target icon wasn't updated")
+    }
+
+    func testWhenExternalTargetDestinationChangeExpectedChangeIt() throws {
+        let newDestination = TestObjFactory.locationVladivostok
+        let target = TestObjFactory.getRepoWrappedTarget()
+        let bag = TestObjFactory.getTargetBagRepoWrapper()
+        bag.added(target: target)
+
+        bag.updated(target: target, destination: newDestination)
+
+        XCTAssertEqual(
+            bag.targets.first?.destination.coordinate.latitude,
+            newDestination.coordinate.latitude,
+            "Target destination wasn't updated"
+        )
+    }
+
+    func testWhenExternalTargetUpdatedChangeExpectedChangeIt() throws {
+        let newUpdated = Date()
+        let target = TestObjFactory.getRepoWrappedTarget()
+        let bag = TestObjFactory.getTargetBagRepoWrapper()
+        bag.added(target: target)
+
+        bag.updated(target: target, updated: newUpdated)
+
+        XCTAssertEqual(bag.targets.first?.updated, newUpdated, "Target updated date wasn't updated")
     }
 }
